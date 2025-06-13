@@ -1,7 +1,52 @@
-# RahulAutade2288.github.io
+# Rahul 2288
+
+# Sr. Manager - Payments Implementation
+
+### Technical Skills
+
+<div align="left"> Python
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
+  <img width="12" /> Java
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
+  <img width="12" /> Oracle
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle logo"  />
+  <img width="12" /> MySQL
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="sql logo"  />
+</div>
+
+### Education
+- Post Graduate Dimploma, Computer Science |  (_June 2002_)								       		
+- B.S., Computer Science | (_May 2001_)
+
+## Work Experience
+**3Itek - Sr. Payments implementation Manager - Global PayPlus PNC Implementation (_June 2015 - January 2022_)**
+
+**Finastra - PNC Implementation -Payment implementation Architect - Global PayPlus PNC Implementation (_June 2015 - January 2022_)**
+- Led team for Global PayPlus (GPP) and Payment Engine implementation at PNC for Payment Engine and Branch application
+- Implemented BOOK,FED, Earthport and SWIFT, Real Time Payments(RTP),CHIPS payment using Global PayPlus
+
+**Finastra - Bank Of America Implementation - Architech and Implementation lead and SME (Payments) for Global PAYPlus (GPP-SP) (_April 2009 - June 2015_)**
+- Built Payments Services Hub using Global PayPlus (GPP) system to optimize Bank Of America's payments processing engine.
+- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+
+**Finastra - Development lead for Global PAYPlus (GPP-SP) (_September 2003 - April 2009_)**
+- Lead Java software engineer on a FundTech's(Finastra) product TCRemit which performs initiation of remittances by the Remitter, Exchange House or it’s correspondent and settlement of funds to the beneficiary for cross border money exchanges.
+
+
+## Projects
+
+
+## Talks & Lectures
+
+
+## Publications
+
+
+<!--   BELOW SECTION IS COMMENTED FOR NOW FOR TESTING PURPOSE
+
 #Personal website and professional portfolio of Rahul Autade, showcasing expertise in fintech, payments innovation, AI research, technical documentation, and contributions to global technology conferences and projects.
 
-<!-- 
+
 <img src="https://res.cloudinary.com/superfolio/image/upload/v1620689979/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f63362f33332f63322f63363333633230656465383266306530636564376435373064626533613166332e676966_yjuh2s.gif" alt="soura-banner">
 
 

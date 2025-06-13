@@ -27,7 +27,7 @@
 
 **Finastra - Bank Of America Implementation - Architech and Implementation lead and SME (Payments) for Global PAYPlus (GPP-SP) (_April 2009 - June 2015_)**
 - Built Payments Services Hub using Global PayPlus (GPP) system to optimize Bank Of America's payments processing engine.
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes
+- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes.
 
 **Finastra - Development lead for Global PAYPlus (GPP-SP) (_September 2003 - April 2009_)**
 - Lead Java software engineer on a FundTech's(Finastra) product TCRemit which performs initiation of remittances by the Remitter, Exchange House or it’s correspondent and settlement of funds to the beneficiary for cross border money exchanges.

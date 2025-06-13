@@ -22,7 +22,7 @@
 **3Itek - Sr. Payments implementation Manager - Global PayPlus PNC Implementation (_June 2015 - January 2022_)**
 
 **Finastra - PNC Implementation -Payment implementation Architect - Global PayPlus PNC Implementation (_June 2015 - January 2022_)**
-- Led team for Global PayPlus (GPP) and Payment Engine implementation at PNC for Payment Engine and Branch application
+- Led team for Global PayPlus (GPP) and Payment Engine implementation at PNC for Payment Engine and Branch application.
 - Implemented BOOK,FED, Earthport and SWIFT, Real Time Payments(RTP),CHIPS payment using Global PayPlus
 
 **Finastra - Bank Of America Implementation - Architech and Implementation lead and SME (Payments) for Global PAYPlus (GPP-SP) (_April 2009 - June 2015_)**

@@ -114,11 +114,11 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 ---
 
 ## **Talks**
-- **May 17th, 2025** – Product Speaker: [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
-- **June 12th, 2025** – Keynote Speaker: [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
-- **July 26th, 2025** – Keynote Speaker: [Conference AIC 2025](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
-- **October 16th, 2025** – Keynote Speaker: [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/)  
-- **January 20th, 2026** – Keynote Speaker: [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)  
+- **Product Speaker**: May 17th, 2025 –  [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
+- **Keynote Speaker**: June 12th, 2025 –  [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
+- **Keynote Speaker**: July 26th, 2025 –  [Conference AIC 2025](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
+- **Keynote Speaker**: October 16th, 2025 –  [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/)  
+- **Keynote Speaker**: January 20th, 2026 –  [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)  
 
 ---
 

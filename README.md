@@ -68,7 +68,9 @@
 ## Projects
 
 
-## Talks & Lectures
+## Talks
+- July 26, 2026: Conference AIC 2025: [DevOps 2023](https://www.scrs.in/conference/aic2025) : https://www.scrs.in/conference/aic2025/speaker/talk/1035
+- 
 
 
 ## Publications

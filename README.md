@@ -70,7 +70,8 @@
 - June 12th, 2025: Keynote Speaker : [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/) :  https://fintechfestival.africa/list-of-speakers/
 - July 26th, 2025: Keynote Speaker : [Conference AIC 2025](https://www.scrs.in/conference/aic2025) : https://www.scrs.in/conference/aic2025/speaker/talk/1035
 - October 16th, 2025: Keynote Speaker : [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/) : https://www.nerdpublication.com/icaidlp/
-- January 20th, 2026: Keynote Speaker : [Conference ETLTC-icetm 2026](https://www.interconf-etltc.net/etltc2026) : https://www.interconf-etltc.net/keynotes
+- January 20th, 2026: Keynote Speaker : [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/etltc2026) : https://www.interconf-etltc.net/keynotes
+- 
 - 
 
 

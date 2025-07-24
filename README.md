@@ -29,7 +29,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 <h3 align="left">👨‍💻 About Me</h3>
 
 <p align="left">
-  I am Rahul Autade, a seasoned fintech professional and Senior Manager with 22+ years of experience in payments modernization, digital banking solutions, and high-volume payment processing systems.<br><br>
+  I am Rahul Autade, a seasoned FinTech professional and Senior Manager with 22+ years of experience in payments modernization, digital banking solutions, and high-volume payment processing systems.<br><br>
 
   - 💳 **FinTech Expertise** – Specialized in <b>Real-Time Payments</b>, <b>AI & Data Analytics</b>, <b>Digital Banking</b>, <b>Fraud Detection & Risk Management</b>,  and <b>Cybersecurity</b> for secure and scalable financial solutions.
   - 🔭 **Expert in payment systems architecture, modernization, and implementation** – led large-scale deployments of Global PayPlus (GPP), RTP, SWIFT, FEDWIRE, CHIPS, and cross-border payment platforms for top U.S. banks.<br>

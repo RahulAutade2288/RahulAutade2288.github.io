@@ -78,8 +78,6 @@
 ## Publications
 
 
-<!--   BELOW SECTION IS COMMENTED FOR NOW FOR TESTING PURPOSE
-
 #Personal website and professional portfolio of Rahul Autade, showcasing expertise in fintech, payments innovation, AI research, technical documentation, and contributions to global technology conferences and projects.
 
 
@@ -116,34 +114,5 @@
   - ⚡ In my free time, I explore new technologies and contribute to open-source projects.
 </p>
 
-###
 
-<h3 align="left">🛠 Languages and Tools</h3>
-
-###
-
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="sql logo"  />
-</div>
-
-###
-
--->
-<h3 align="left">🔥 My Stats</h3>
-
-###
-<div align="center">
-<!-- ![](https://github-readme-streak-stats.herokuapp.com/?user=RahulAutade2288&theme=radical&hide_border=false)<br/> -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=RahulAutade2288&theme=radical&hide_border=false"  />
-</div>
-
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><h2 align="left">⚡Activity Graph:</h2>
-<img align="center" src="https://github-readme-activity-graph.vercel.app/graph?username=RahulAutade2288&theme=react"/>
 

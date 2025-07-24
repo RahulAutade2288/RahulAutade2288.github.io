@@ -135,4 +135,4 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [Navigating Challenges in Real-Time Payment Systems in FinTech](https://ijaidsml.org/index.php/ijaidsml/article/view/108)
 - [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)
 - [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
-- [Financial Security And Transparency With Blockchain Solutions] (https://tojqi.net/journal/article/view/10703)
+- [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)

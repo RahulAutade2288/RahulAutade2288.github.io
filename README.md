@@ -47,7 +47,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 </p>
 
 
-
+---
 
 ## **Talks**
 - **Product Speaker**: May 17th, 2025 –  [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
@@ -67,7 +67,11 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
 - [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
 
+---
 
+## **Judging**
+
+---
 
 ## **Work Experience & Projects**
 

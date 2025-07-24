@@ -69,7 +69,7 @@
 
 
 ## Talks
-- July 26, 2025: [Conference AIC 2025](https://www.scrs.in/conference/aic2025) : https://www.scrs.in/conference/aic2025/speaker/talk/1035
+- July 26, 2025: Keynote Speaker : [Conference AIC 2025](https://www.scrs.in/conference/aic2025) : https://www.scrs.in/conference/aic2025/speaker/talk/1035
 - 
 
 

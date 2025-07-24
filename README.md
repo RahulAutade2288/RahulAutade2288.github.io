@@ -24,24 +24,21 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
   <img src="https://visitor-badge.laobi.icu/badge?page_id=RahulAutade2288.RahulAutade2288" />
 </div>
 
----
-
 <h3 align="left">👨‍💻 About Me</h3>
 
 <p align="left">
   I am Rahul Autade, a seasoned FinTech professional and Senior Manager with 22+ years of experience in payments modernization, digital banking solutions, and high-volume payment processing systems.<br><br>
 
-  - 💳 **FinTech Expertise** – Specialized in <b>Real-Time Payments</b>, <b>AI & Data Analytics</b>, <b>Digital Banking</b>, <b>Fraud Detection & Risk Management</b>,  and <b>Cybersecurity</b> for secure and scalable financial solutions.
-  - 🔭 **Expert in payment systems architecture, modernization, and implementation** – led large-scale <b>payment platforms modernization for top U.S. banks </b> using deployments of Global PayPlus (GPP), RTP, SWIFT, FEDWIRE, CHIPS, and cross-border payments.<br>
-  - 🎤 **Conference Speaker & Keynote Leader** – invited keynote speaker at IEEE AIC 2025, Fintech Festival Africa 2025, and multiple international conferences on AI, fintech, and payments innovation.<br>
-  - 📄 **Research & Paper Reviews** – serve as reviewer and session chair for leading IEEE and international conferences, evaluating advanced solutions in AI, cybersecurity, and financial technologies.<br>
-  - 🏆 **Hackathon & Awards Judge** – judge for global technology competitions, fintech hackathons, and innovation awards, supporting the growth of emerging fintech solutions.<br>
-  - 📚 **Technical Expertise** – proficient in Python, Java, J2EE, Oracle, SQL, SOA architecture, microservices, API development, and DevOps/cloud-native deployments (AWS, Docker, Kubernetes).<br>
-  - ⚡ **Passionate about innovation** – advocate for AI-driven fraud detection, blockchain in payments, and real-time transaction authentication.<br>
-  - 💡 In my free time, I explore new technologies, mentor aspiring professionals, and contribute to open-source projects.<br>
+  - 💳 <b>FinTech Expertise</b> – Specialized in <b>Real-Time Payments</b>, <b>AI & Data Analytics</b>, <b>Digital Banking</b>, <b>Fraud Detection & Risk Management</b>, and <b>Cybersecurity</b> for secure and scalable financial solutions.<br>
+  - 🔭 <b>Expert in Payment Systems Architecture, Modernization, and Implementation</b> – Led large-scale <b>payment modernization programs for top U.S. banks</b>, including deployments of <b>Global PayPlus (GPP)</b>, <b>RTP</b>, <b>SWIFT</b>, <b>FEDWIRE</b>, <b>CHIPS</b>, and cross-border payment systems.<br>
+  - 🎤 <b>Conference Speaker & Keynote Leader</b> – Invited keynote speaker at <b>IEEE AIC 2025</b>, <b>Fintech Festival Africa 2025</b>, and other international conferences on AI, fintech, and payments innovation.<br>
+  - 📄 <b>Research & Paper Reviews</b> – Serve as a reviewer and session chair for leading IEEE and international conferences, evaluating advanced solutions in AI, cybersecurity, and financial technologies.<br>
+  - 🏆 <b>Hackathon & Awards Judge</b> – Judge for global technology competitions, fintech hackathons, and innovation awards, supporting the growth of emerging fintech solutions.<br>
+  - 📚 <b>Technical Expertise</b> – Proficient in <b>Python</b>, <b>Java</b>, <b>J2EE</b>, <b>Oracle</b>, <b>SQL</b>, <b>SOA architecture</b>, <b>microservices</b>, <b>API development</b>, and <b>DevOps/cloud-native deployments</b> (AWS, Docker, Kubernetes).<br>
+  - ⚡ <b>Passionate About Innovation</b> – Advocate for AI-driven fraud detection, blockchain-based payments, and real-time transaction authentication.<br>
+  - 💡 <b>Mentorship & Exploration</b> – In my free time, I explore new technologies, mentor aspiring professionals, and contribute to open-source projects.<br>
 </p>
 
----
 
 ### **Technical Skills**
 

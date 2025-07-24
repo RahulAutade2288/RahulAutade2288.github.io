@@ -43,7 +43,7 @@
 - Post Graduate Dimploma, Computer Science |  (_June 2002_)								       		
 - B.S., Computer Science | (_May 2001_)
 
-## Work Experience
+## Work Experience / ## Projects
 **3Itek – Senior Payments Implementation Manager (Global PayPlus – PNC Implementation) (_June 2022 - Present_)**
 - Spearheaded the end-to-end implementation of the Global PayPlus (GPP) payment engine at PNC Bank, including core payment engine and branch applications.
 - Delivered seamless integration of payment schemes such as BOOK, FED, Earthport, SWIFT, Real-Time Payments (RTP), and CHIPS using GPP.
@@ -65,11 +65,9 @@
 - Mentored a team of developers, ensuring code quality, scalability, and adherence to best practices in payment system development.
 
 
-## Projects
-
-
 ## Talks
-- July 26, 2025: Keynote Speaker : [Conference AIC 2025](https://www.scrs.in/conference/aic2025) : https://www.scrs.in/conference/aic2025/speaker/talk/1035
+- June 12th, 2025: Keynote Speaker : [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/) :  https://fintechfestival.africa/list-of-speakers/
+- July 26th, 2025: Keynote Speaker : [Conference AIC 2025](https://www.scrs.in/conference/aic2025) : https://www.scrs.in/conference/aic2025/speaker/talk/1035
 - 
 
 

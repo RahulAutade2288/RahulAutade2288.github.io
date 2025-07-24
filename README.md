@@ -47,6 +47,55 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 </p>
 
 
+
+## **Work Experience & Projects**
+
+**3Itek – Senior Payments Implementation Manager (Global PayPlus – PNC Implementation)**  
+*June 2022 – Present*  
+- Spearheaded the end-to-end implementation of the Global PayPlus (GPP) payment engine at PNC Bank, including core payment engine and branch applications.  
+- Delivered seamless integration of payment schemes such as BOOK, FED, Earthport, SWIFT, Real-Time Payments (RTP), and CHIPS using GPP.  
+- Led cross-functional teams, ensuring alignment of technical design, compliance, and operational excellence for high-volume payment processing systems.
+
+**Finastra – Payment Implementation Architect (Global PayPlus – PNC Implementation)**  
+*June 2015 – January 2022*  
+- Directed the Global PayPlus (GPP) deployment for PNC’s payment modernization program, focusing on scalability and high availability.  
+- Designed and implemented complex payment flows across multiple rails (e.g., SWIFT, RTP, FEDWIRE) with strong adherence to regulatory and risk controls.  
+- Collaborated with enterprise architecture teams to enhance fraud detection and operational monitoring mechanisms.
+
+**Finastra – Architect & Implementation Lead (Bank of America – GPP-SP)**  
+*April 2009 – June 2015*  
+- Led the Payments Services Hub architecture and implementation for Bank of America, leveraging Global PayPlus (GPP-SP) to enhance payments processing efficiency.  
+- Served as Subject Matter Expert (SME) for payment systems, providing strategic direction on cross-border payments, real-time settlements, and SWIFT integration.  
+- Drove performance optimization initiatives, resulting in improved transaction throughput and reduced operational costs.
+
+**Finastra – Development Lead (Global PayPlus – GPP-SP)**  
+*September 2003 – April 2009*  
+- Led Java-based software development for TCRemit, a FundTech (now Finastra) product enabling cross-border money transfers, remittances, and settlement services.  
+- Designed and delivered high-performance modules supporting remitter and exchange house operations with compliance to AML and OFAC requirements.  
+- Mentored a team of developers, ensuring code quality, scalability, and adherence to best practices in payment system development.
+
+---
+
+## **Talks**
+- **Product Speaker**: May 17th, 2025 –  [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
+- **Keynote Speaker**: June 12th, 2025 –  [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
+- **Keynote Speaker**: July 26th, 2025 –  [Conference AIC 2025](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
+- **Keynote Speaker**: October 16th, 2025 –  [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/)  
+- **Keynote Speaker**: January 20th, 2026 –  [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)  
+
+---
+
+## **Paper Publications**
+- [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)
+- [Integrating IOT And AI For End-To-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)
+- [AI-Powered Predictive Maintenance in Industrial IoT](https://ijstpublication.com/index.php/ijst/article/view/17)
+- [Navigating Challenges in Real-Time Payment Systems in FinTech](https://ijaidsml.org/index.php/ijaidsml/article/view/108)
+- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)
+- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
+- [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
+
+
+
 ### **Technical Skills**
 
 <div align="left">
@@ -94,49 +143,3 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **Bachelor of Science (B.S.) in Computer Science** – *May 2001*
 
 ---
-
-## **Work Experience & Projects**
-
-**3Itek – Senior Payments Implementation Manager (Global PayPlus – PNC Implementation)**  
-*June 2022 – Present*  
-- Spearheaded the end-to-end implementation of the Global PayPlus (GPP) payment engine at PNC Bank, including core payment engine and branch applications.  
-- Delivered seamless integration of payment schemes such as BOOK, FED, Earthport, SWIFT, Real-Time Payments (RTP), and CHIPS using GPP.  
-- Led cross-functional teams, ensuring alignment of technical design, compliance, and operational excellence for high-volume payment processing systems.
-
-**Finastra – Payment Implementation Architect (Global PayPlus – PNC Implementation)**  
-*June 2015 – January 2022*  
-- Directed the Global PayPlus (GPP) deployment for PNC’s payment modernization program, focusing on scalability and high availability.  
-- Designed and implemented complex payment flows across multiple rails (e.g., SWIFT, RTP, FEDWIRE) with strong adherence to regulatory and risk controls.  
-- Collaborated with enterprise architecture teams to enhance fraud detection and operational monitoring mechanisms.
-
-**Finastra – Architect & Implementation Lead (Bank of America – GPP-SP)**  
-*April 2009 – June 2015*  
-- Led the Payments Services Hub architecture and implementation for Bank of America, leveraging Global PayPlus (GPP-SP) to enhance payments processing efficiency.  
-- Served as Subject Matter Expert (SME) for payment systems, providing strategic direction on cross-border payments, real-time settlements, and SWIFT integration.  
-- Drove performance optimization initiatives, resulting in improved transaction throughput and reduced operational costs.
-
-**Finastra – Development Lead (Global PayPlus – GPP-SP)**  
-*September 2003 – April 2009*  
-- Led Java-based software development for TCRemit, a FundTech (now Finastra) product enabling cross-border money transfers, remittances, and settlement services.  
-- Designed and delivered high-performance modules supporting remitter and exchange house operations with compliance to AML and OFAC requirements.  
-- Mentored a team of developers, ensuring code quality, scalability, and adherence to best practices in payment system development.
-
----
-
-## **Talks**
-- **Product Speaker**: May 17th, 2025 –  [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
-- **Keynote Speaker**: June 12th, 2025 –  [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
-- **Keynote Speaker**: July 26th, 2025 –  [Conference AIC 2025](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
-- **Keynote Speaker**: October 16th, 2025 –  [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/)  
-- **Keynote Speaker**: January 20th, 2026 –  [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)  
-
----
-
-## **Paper Publications**
-- [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)
-- [Integrating IOT And AI For End-To-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)
-- [AI-Powered Predictive Maintenance in Industrial IoT](https://ijstpublication.com/index.php/ijst/article/view/17)
-- [Navigating Challenges in Real-Time Payment Systems in FinTech](https://ijaidsml.org/index.php/ijaidsml/article/view/108)
-- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)
-- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
-- [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)

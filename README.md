@@ -10,7 +10,7 @@
 
 
 <h1 align="center"> Hi there, I'm <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank" rel="noopener noreferrer"> Rahul Autade </a>  </samp>
-<h3 align="center"><i>A Senior Manager (Payment Implementation) & Software Engineer</i></h3>
+<h3 align="center"><i>A Senior Manager (Payment Implementation) </i></h3>
 
 ###
 
@@ -33,7 +33,7 @@
 ###
 
 <p align="left">
-  I'm Rahul Autade, a seasoned Software Engineer and Senior Manager specializing in payment implementation.<br><br>
+  I'm Rahul Autade, a seasoned Professional and Senior Manager specializing in payments modernization.<br><br>
   - 🔭 Leading payment system implementations with a focus on efficiency and scalability.<br>
   - 📚 Proficient in Python, Java, J2EE, Oracle, SQL, SOA architecture, Web Services (MQ, SOAP), and API development.<br>
   - ⚡ In my free time, I explore new technologies and contribute to open-source projects.

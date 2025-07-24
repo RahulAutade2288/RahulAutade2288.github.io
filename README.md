@@ -19,18 +19,25 @@
 - B.S., Computer Science | (_May 2001_)
 
 ## Work Experience
-**3Itek - Sr. Payments implementation Manager - Global PayPlus PNC Implementation (_June 2015 - January 2022_)**
+**3Itek – Senior Payments Implementation Manager (Global PayPlus – PNC Implementation) (_June 2022 - Present_)**
+- Spearheaded the end-to-end implementation of the Global PayPlus (GPP) payment engine at PNC Bank, including core payment engine and branch applications.
+- Delivered seamless integration of payment schemes such as BOOK, FED, Earthport, SWIFT, Real-Time Payments (RTP), and CHIPS using GPP.
+- Led cross-functional teams, ensuring alignment of technical design, compliance, and operational excellence for high-volume payment processing systems.
 
-**Finastra - PNC Implementation -Payment implementation Architect - Global PayPlus PNC Implementation (_June 2015 - January 2022_)**
-- Led team for Global PayPlus (GPP) and Payment Engine implementation at PNC for Payment Engine and Branch application.
-- Implemented BOOK,FED, Earthport and SWIFT, Real Time Payments(RTP),CHIPS payment using Global PayPlus
+**Finastra - Finastra – Payment Implementation Architect (Global PayPlus – PNC Implementation) (_June 2015 - January 2022_)**
+- Directed the Global PayPlus (GPP) deployment for PNC’s payment modernization program, focusing on scalability and high availability.
+- Designed and implemented complex payment flows across multiple rails (e.g., SWIFT, RTP, FEDWIRE) with strong adherence to regulatory and risk controls.
+- Collaborated with enterprise architecture teams to enhance fraud detection and operational monitoring mechanisms.
 
-**Finastra - Bank Of America Implementation - Architech and Implementation lead and SME (Payments) for Global PAYPlus (GPP-SP) (_April 2009 - June 2015_)**
-- Built Payments Services Hub using Global PayPlus (GPP) system to optimize Bank Of America's payments processing engine.
-- Applied unsupervised deep learning approaches to longitudinal ICU data to discover novel sepsis sub-phenotypes.
+**Finastra - Architect & Implementation Lead (Bank of America – GPP-SP) (_April 2009 - June 2015_)**
+- Led the Payments Services Hub architecture and implementation for Bank of America, leveraging Global PayPlus (GPP-SP) to enhance payments processing efficiency.
+- Served as Subject Matter Expert (SME) for payment systems, providing strategic direction on cross-border payments, real-time settlements, and SWIFT integration.
+- Drove performance optimization initiatives, resulting in improved transaction throughput and reduced operational costs.
 
-**Finastra - Development lead for Global PAYPlus (GPP-SP) (_September 2003 - April 2009_)**
-- Lead Java software engineer on a FundTech's(Finastra) product TCRemit which performs initiation of remittances by the Remitter, Exchange House or it’s correspondent and settlement of funds to the beneficiary for cross border money exchanges.
+**Finastra - Development Lead (Global PayPlus – GPP-SP) (_September 2003 - April 2009_)**
+- Led Java-based software development for TCRemit, a FundTech (now Finastra) product enabling cross-border money transfers, remittances, and settlement services.
+- Designed and delivered high-performance modules supporting remitter and exchange house operations with compliance to AML and OFAC requirements.
+- Mentored a team of developers, ensuring code quality, scalability, and adherence to best practices in payment system development.
 
 
 ## Projects

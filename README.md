@@ -74,12 +74,12 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 
 ## **Judging** , **Reviewing** , **Committee Member**
 - **Purdue University - Judge** - [Judge at Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)
-- **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)] (https://bdaa-conference.com/)
-- **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)] (https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)
-- **Technical Committee Member** - [International Conference on Innovations in Engineering, Science and Technology for Sustainable Development (ICEST2025)] (https://icest.mnu.edu.mv/technicalcomm)
-- **Organizing Committee Member** - [The International Conference on Breakthrough Technologies for Sustainable Development 2025] (https://www.ftccoe.ac.in/icbtsd2025/organizing_committee)
-- **Reviewer Committee Member** - [IEEE Global Humanitarian Technology Conference (GHTC)] (https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)
-- **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia] (https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)
+- **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)](https://bdaa-conference.com/)
+- **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)
+- **Technical Committee Member** - [International Conference on Innovations in Engineering, Science and Technology for Sustainable Development (ICEST2025)](https://icest.mnu.edu.mv/technicalcomm)
+- **Organizing Committee Member** - [The International Conference on Breakthrough Technologies for Sustainable Development 2025](https://www.ftccoe.ac.in/icbtsd2025/organizing_committee)
+- **Reviewer Committee Member** - [IEEE Global Humanitarian Technology Conference (GHTC)](https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)
+- **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)
 - 
 ---
 

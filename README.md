@@ -72,7 +72,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 
 ---
 
-## **Judging** , **Redviewing** , **Committee Member**
+## **Judging** , **Reviewing** , **Committee Member**
 - **Purdue University - Judge** - [Judge at Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)
 - **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)] (https://bdaa-conference.com/)
 - **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)] (https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)

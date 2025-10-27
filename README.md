@@ -72,8 +72,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 
 ---
 
-## **Judging**
-
+## **Judging** , **Redviewing** , **Committee Member**
+- **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)] (https://bdaa-conference.com/)
 ---
 
 ## **Work Experience & Projects**

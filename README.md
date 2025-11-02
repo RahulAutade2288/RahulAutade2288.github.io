@@ -72,15 +72,27 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
 
 ---
-## **Judging** , **Reviewing** , **Committee Member**
+## **Judging** , 
 - **Purdue University - Judge** - [Judge at Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)
+- **Project ECHO** - Business Plan Competition Judge
+- **eCYBERMISSION and U.S. Army Educational Outreach Program (AEOP)** - Science, Engineering and Mathematics Competition Judge
+- **PITTSBURGH REGIONAL SCIENCE AND ENGINEERING FAIR** - IEEE Judge
+- **Internation Rocket Engineering Competition (IREC)** - Technical Judge
+- **University of Pittsburgh Swanson School of Engineering Design EXPO** - Industry Judge
+- **VEI National Video Commercial Competition** - Industry Judge
+- **The Youth Business Summit, New York** -  Industry Judge
+- **VEX Robotics World Championship** - Industry Judge- 
+
+
+
+---
+## **Reviewing** , **Committee Member**
 - **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)](https://bdaa-conference.com/)
 - **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)
 - **Technical Committee Member** - [International Conference on Innovations in Engineering, Science and Technology for Sustainable Development (ICEST2025)](https://icest.mnu.edu.mv/technicalcomm)
 - **Organizing Committee Member** - [The International Conference on Breakthrough Technologies for Sustainable Development 2025](https://www.ftccoe.ac.in/icbtsd2025/organizing_committee)
 - **Reviewer Committee Member** - [IEEE Global Humanitarian Technology Conference (GHTC)](https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)
-- **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)
-- 
+- **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)- 
 ---
 
 ## **Membership**
@@ -96,8 +108,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [PNC Goes Live On The Clearing House’s Real-Time Payments Network](https://www.pymnts.com/news/b2b-payments/2017/pnc-clearing-house-real-time-payments-finastra/)
 - [PNC Selects Finastra for Live on Real-time Payments Network](https://financialit.net/news/payments/pnc-selects-finastra-live-real-time-payments-network)
 - [Fundtech’s US Wire System Adds FX Transactions through PNC Bank](https://www.theglobaltreasurer.com/2013/02/13/fundtechs-us-wire-system-adds-fx-transactions-through-pnc-bank/)
-- [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)
-- 
+- [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)- 
 
 ## **Work Experience & Projects**
 

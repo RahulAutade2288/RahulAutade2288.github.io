@@ -66,11 +66,14 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 [View on Google Scholar →](https://scholar.google.com/citations?hl=en&authuser=3&user=JuVBGZYAAAAJ)
 - [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)
 - [Integrating IOT And AI For End-To-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)
+- [Quantum Computing for Fraud Detection in Real-Time Payment Systems](https://ieeexplore.ieee.org/abstract/document/11158810)
+- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)
+- [AI Models for Real Time Risk Assessment in Decentralized Finance](https://annalsofappliedsciences.com/index.php/aas/article/view/30)
+- [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
+- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
+- [Green Fintech And Its Influence On Sustainable Financial Practices](https://hal.science/hal-05215332/)
 - [AI-Powered Predictive Maintenance in Industrial IoT](https://ijstpublication.com/index.php/ijst/article/view/17)
 - [Navigating Challenges in Real-Time Payment Systems in FinTech](https://ijaidsml.org/index.php/ijaidsml/article/view/108)
-- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)
-- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
-- [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
 
 ---
 

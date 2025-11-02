@@ -79,7 +79,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 
 ## **Reviewing** , **Committee Member**
 
-**Total papers reviewed:** Over 100 (2023–2025)
+**Total papers reviewed:** Over 100 scholarly manuscripts spanning AI, FinTech, and cybersecurity domains for IEEE and international conferences, reflecting active engagement in global research review.
 
 - **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)](https://bdaa-conference.com/)
 - **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)

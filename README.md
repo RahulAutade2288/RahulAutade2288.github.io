@@ -93,7 +93,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **University of Pittsburgh Swanson School of Engineering Design EXPO** - Industry Judge
 - **VEI National Video Commercial Competition** - Industry Judge
 - **The Youth Business Summit, New York** -  Industry Judge
-- **VEX Robotics World Championship** - Industry Judge 
+- **VEX Robotics World Championship** - Industry Judge TEST
+ 
 ---
 
 ## **Membership**

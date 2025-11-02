@@ -52,73 +52,88 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 ---
 
 ## **Talks**
-- **Product Speaker**: May 17th, 2025 –  [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
-- **Keynote Speaker**: June 12th, 2025 –  [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
-- **Keynote Speaker**: July 26th, 2025 –  [Conference AIC 2025](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
-- **Keynote Speaker**: October 16th, 2025 –  [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/)
-- **Keynote Speaker**: December 5th, 2025 –  [Smart Computing and Communication for Sustainable Convergence](https://chitkara.edu.in/isccsc/speakers.html)  
-- **Keynote Speaker**: January 20th, 2026 –  [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)
-- **Industry Speaker**: March 25th 2026 -  [Fintech Festival Kenya 2026](https://fintechfestivalkenya.com/)
+I have been invited to deliver keynote and industry talks at international conferences and professional events focusing on AI, FinTech, and digital transformation.  
+
+- **Product Speaker** – May 17, 2025: [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
+- **Keynote Speaker** – June 12, 2025: [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
+- **Keynote Speaker** – July 26, 2025: [IEEE Conference on Applied Intelligence and Computing (AIC 2025)](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
+- **Keynote Speaker** – October 16, 2025: [International Conference on Artificial Intelligence and Deep Learning Applications (ICAIDLP)](https://www.nerdpublication.com/icaidlp/)  
+- **Keynote Speaker** – December 5, 2025: [Smart Computing and Communication for Sustainable Convergence (ISCCSC 2025)](https://chitkara.edu.in/isccsc/speakers.html)  
+- **Keynote Speaker** – January 20, 2026: [Conference ETLTC–ICETM 2026](https://www.interconf-etltc.net/keynotes)  
+- **Industry Speaker** – March 25, 2026: [Fintech Festival Kenya 2026](https://fintechfestivalkenya.com/)
 
 ---
 
 ## Paper Publications  
+
 [View on Google Scholar →](https://scholar.google.com/citations?hl=en&authuser=3&user=JuVBGZYAAAAJ)
-- [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)
-- [Integrating IOT And AI For End-To-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)
-- [Quantum Computing for Fraud Detection in Real-Time Payment Systems](https://ieeexplore.ieee.org/abstract/document/11158810)
-- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)
-- [AI Models for Real Time Risk Assessment in Decentralized Finance](https://annalsofappliedsciences.com/index.php/aas/article/view/30)
-- [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
-- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
-- [Green Fintech And Its Influence On Sustainable Financial Practices](https://hal.science/hal-05215332/)
-- [AI-Powered Predictive Maintenance in Industrial IoT](https://ijstpublication.com/index.php/ijst/article/view/17)
+
+My research focuses on the convergence of Artificial Intelligence, FinTech, Blockchain, and Quantum Computing to advance secure, transparent, and data-driven financial ecosystems.  
+
+- [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)  
+- [Integrating IoT and AI for End-to-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)  
+- [Quantum Computing for Fraud Detection in Real-Time Payment Systems](https://ieeexplore.ieee.org/abstract/document/11158810)  
+- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)  
+- [AI Models for Real-Time Risk Assessment in Decentralized Finance](https://annalsofappliedsciences.com/index.php/aas/article/view/30)  
+- [Financial Security and Transparency with Blockchain Solutions](https://tojqi.net/journal/article/view/10703)  
+- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)  
+- [Green FinTech and Its Influence on Sustainable Financial Practices](https://hal.science/hal-05215332/)  
+- [AI-Powered Predictive Maintenance in Industrial IoT](https://ijstpublication.com/index.php/ijst/article/view/17)  
 - [Navigating Challenges in Real-Time Payment Systems in FinTech](https://ijaidsml.org/index.php/ijaidsml/article/view/108)
 
 ---
 
 ## **Reviewing** , **Committee Member**
 
-**Total papers reviewed:** Over 100 scholarly manuscripts spanning AI, FinTech, and cybersecurity domains for IEEE and international conferences, reflecting active engagement in global research review.
+**Total papers reviewed:** Over 100 scholarly manuscripts spanning AI, FinTech, and cybersecurity domains for IEEE and international conferences, reflecting active engagement in global research review.  
 
-- **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)](https://bdaa-conference.com/)
-- **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)
-- **Technical Committee Member** - [International Conference on Innovations in Engineering, Science and Technology for Sustainable Development (ICEST2025)](https://icest.mnu.edu.mv/technicalcomm)
-- **Organizing Committee Member** - [The International Conference on Breakthrough Technologies for Sustainable Development 2025](https://www.ftccoe.ac.in/icbtsd2025/organizing_committee)
-- **Reviewer Committee Member** - [IEEE Global Humanitarian Technology Conference (GHTC)](https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)
-- **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)- 
+I actively contribute to global research and academic collaboration through technical program committees, reviewer panels, and organizing committees across leading international conferences.  
+
+- **International Programme Committee Member** – [First International Conference on Big Data Analytics & Applications (BDAA 2025)](https://bdaa-conference.com/)  
+- **Program Committee Member** – [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)  
+- **Technical Committee Member** – [International Conference on Innovations in Engineering, Science and Technology for Sustainable Development (ICEST 2025)](https://icest.mnu.edu.mv/technicalcomm)  
+- **Organizing Committee Member** – [International Conference on Breakthrough Technologies for Sustainable Development (ICBTSD 2025)](https://www.ftccoe.ac.in/icbtsd2025/organizing_committee)  
+- **Reviewer Committee Member** – [IEEE Global Humanitarian Technology Conference (GHTC 2025)](https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)  
+- **Reviewer Committee Member** – [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications, Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)
+
 
 ---
 
 ## **Judging**  
-- **Purdue University - Judge** - [Judge at Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)
-- **Project ECHO** - Business Plan Competition Judge
-- **eCYBERMISSION and U.S. Army Educational Outreach Program (AEOP)** - Science, Engineering and Mathematics Competition Judge
-- **PITTSBURGH REGIONAL SCIENCE AND ENGINEERING FAIR** - IEEE Judge
-- **Internation Rocket Engineering Competition (IREC)** - Technical Judge
-- **University of Pittsburgh Swanson School of Engineering Design EXPO** - Industry Judge
-- **VEI National Video Commercial Competition** - Industry Judge
-- **The Youth Business Summit, New York** -  Industry Judge
-- **VEX Robotics World Championship** - Industry Judge 
+I have served as a judge for several prestigious academic, engineering, and business competitions at the university, national, and international levels. These experiences reflect my continued engagement in supporting innovation, research, and student excellence across diverse disciplines.
+
+- **Purdue University** – Judge at the [Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)  
+- **Project ECHO** – Business Plan Competition Judge  
+- **eCYBERMISSION & U.S. Army Educational Outreach Program (AEOP)** – Science, Engineering, and Mathematics Competition Judge  
+- **Pittsburgh Regional Science and Engineering Fair** – IEEE Judge  
+- **International Rocket Engineering Competition (IREC)** – Technical Judge  
+- **University of Pittsburgh, Swanson School of Engineering Design Expo** – Industry Judge  
+- **VEI National Video Commercial Competition** – Industry Judge  
+- **The Youth Business Summit, New York** – Industry Judge  
+- **VEX Robotics World Championship** – Industry Judge
  
 ---
 
 ## **Membership**
-- Sigma Xi, The Scientific Research Honor Society
-- IEEE, Senior Member
-- American Bankers Association (ABA)
-- Association for Computing Machinery (ACM)
-- International Association of Engineers (IAENG)
-- International Organization for Academic and Scientific Development (IOASD) 
+I am an active member of several distinguished professional and research organizations that promote innovation, collaboration, and academic excellence in science, technology, and finance.  
+
+- **Sigma Xi – The Scientific Research Honor Society**  
+- **IEEE – Senior Member**  
+- **American Bankers Association (ABA)**  
+- **Association for Computing Machinery (ACM)**  
+- **International Association of Engineers (IAENG)**  
+- **International Organization for Academic and Scientific Development (IOASD)**
   
 ---
 
 ## **News About My Work**
-- [PNC live on new real-time payments network using Finastra](https://www.finastra.com/press-media/pnc-live-new-real-time-payments-network-using-finastra)
-- [PNC Goes Live On The Clearing House’s Real-Time Payments Network](https://www.pymnts.com/news/b2b-payments/2017/pnc-clearing-house-real-time-payments-finastra/)
-- [PNC Selects Finastra for Live on Real-time Payments Network](https://financialit.net/news/payments/pnc-selects-finastra-live-real-time-payments-network)
-- [Fundtech’s US Wire System Adds FX Transactions through PNC Bank](https://www.theglobaltreasurer.com/2013/02/13/fundtechs-us-wire-system-adds-fx-transactions-through-pnc-bank/)
-- [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)- 
+My professional work in payments innovation, digital banking modernization, and financial systems integration has been featured in several leading fintech and industry publications.
+
+- [PNC Live on New Real-Time Payments Network Using Finastra](https://www.finastra.com/press-media/pnc-live-new-real-time-payments-network-using-finastra)  
+- [PNC Goes Live on The Clearing House’s Real-Time Payments Network](https://www.pymnts.com/news/b2b-payments/2017/pnc-clearing-house-real-time-payments-finastra/)  
+- [PNC Selects Finastra for Live Deployment on Real-Time Payments Network](https://financialit.net/news/payments/pnc-selects-finastra-live-real-time-payments-network)  
+- [Fundtech’s U.S. Wire System Adds FX Transactions Through PNC Bank](https://www.theglobaltreasurer.com/2013/02/13/fundtechs-us-wire-system-adds-fx-transactions-through-pnc-bank/)  
+- [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)
 
 ---
 

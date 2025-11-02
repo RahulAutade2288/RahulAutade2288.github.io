@@ -85,6 +85,12 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 ---
 
 ## **Membership**
+- Sigma Xi, The Scientific Research Honor Society
+- IEEE, Senior Member
+- American Bankers Association (ABA)
+- Association for Computing Machinery (ACM)
+- International Association of Engineers (IAENG)
+- International Organization for Academic and Scientific Development (IOASD)- 
 
 ## **News About My Work**
 

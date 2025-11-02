@@ -85,6 +85,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **Reviewer Committee Member** - [IEEE Global Humanitarian Technology Conference (GHTC)](https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)
 - **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)- 
 
+**Total papers reviewed:** Over 100 (2023–2025)
 ---
 
 ## **Judging**  

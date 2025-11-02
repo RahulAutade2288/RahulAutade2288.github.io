@@ -93,6 +93,12 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - International Organization for Academic and Scientific Development (IOASD)- 
 
 ## **News About My Work**
+- [PNC live on new real-time payments network using Finastra](https://www.finastra.com/press-media/pnc-live-new-real-time-payments-network-using-finastra)
+- [PNC Goes Live On The Clearing House’s Real-Time Payments Network](https://www.pymnts.com/news/b2b-payments/2017/pnc-clearing-house-real-time-payments-finastra/)
+- [PNC Selects Finastra for Live on Real-time Payments Network](https://financialit.net/news/payments/pnc-selects-finastra-live-real-time-payments-network)
+- [Fundtech’s US Wire System Adds FX Transactions through PNC Bank](https://www.theglobaltreasurer.com/2013/02/13/fundtechs-us-wire-system-adds-fx-transactions-through-pnc-bank/)
+- [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)
+- 
 
 ## **Work Experience & Projects**
 

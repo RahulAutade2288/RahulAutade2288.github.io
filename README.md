@@ -71,8 +71,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)
 - [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
 
-
 ---
+
 ## **Reviewing** , **Committee Member**
 - **International Programme Committee Member** - [FIRST INTERNATIONAL CONFERENCE ON Big Data Analytics & Applications (BDAA' 2025)](https://bdaa-conference.com/)
 - **Program Committee Member** - [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)
@@ -82,6 +82,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **Reviewer Committee Member** - [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications. Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)- 
 
 ---
+
 ## **Judging**  
 - **Purdue University - Judge** - [Judge at Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)
 - **Project ECHO** - Business Plan Competition Judge
@@ -100,7 +101,9 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - American Bankers Association (ABA)
 - Association for Computing Machinery (ACM)
 - International Association of Engineers (IAENG)
-- International Organization for Academic and Scientific Development (IOASD)- 
+- International Organization for Academic and Scientific Development (IOASD)
+- 
+---
 
 ## **News About My Work**
 - [PNC live on new real-time payments network using Finastra](https://www.finastra.com/press-media/pnc-live-new-real-time-payments-network-using-finastra)
@@ -108,6 +111,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [PNC Selects Finastra for Live on Real-time Payments Network](https://financialit.net/news/payments/pnc-selects-finastra-live-real-time-payments-network)
 - [Fundtech’s US Wire System Adds FX Transactions through PNC Bank](https://www.theglobaltreasurer.com/2013/02/13/fundtechs-us-wire-system-adds-fx-transactions-through-pnc-bank/)
 - [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)- 
+
+---
 
 ## **Work Experience & Projects**
 
@@ -185,4 +190,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **Bachelor of Science (B.S.) in Computer Science** – *May 2001*
 
 ---
+### **Certification**
+- **Global PayPlus Classic**
+- **Global PayPlus SP**
 
+---

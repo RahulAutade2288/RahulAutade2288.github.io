@@ -92,7 +92,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **University of Pittsburgh Swanson School of Engineering Design EXPO** - Industry Judge
 - **VEI National Video Commercial Competition** - Industry Judge
 - **The Youth Business Summit, New York** -  Industry Judge
-- **VEX Robotics World Championship** - Industry Judge- 
+- **VEX Robotics World Championship** - Industry Judge 
 ---
 
 ## **Membership**
@@ -101,7 +101,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - American Bankers Association (ABA)
 - Association for Computing Machinery (ACM)
 - International Association of Engineers (IAENG)
-- International Organization for Academic and Scientific Development (IOASD)- 
+- International Organization for Academic and Scientific Development (IOASD) 
 ---
 
 ## **News About My Work**

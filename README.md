@@ -72,7 +72,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - [Financial Security And Transparency With Blockchain Solutions](https://tojqi.net/journal/article/view/10703)
 
 ---
-## **Judging** , 
+## **Judging**  
 - **Purdue University - Judge** - [Judge at Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)
 - **Project ECHO** - Business Plan Competition Judge
 - **eCYBERMISSION and U.S. Army Educational Outreach Program (AEOP)** - Science, Engineering and Mathematics Competition Judge

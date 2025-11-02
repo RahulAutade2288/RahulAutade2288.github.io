@@ -61,7 +61,7 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 
 ---
 
-## **[Paper Publications]**(https://scholar.google.com/citations?hl=en&authuser=3&user=JuVBGZYAAAAJ)
+## [Paper Publications](https://scholar.google.com/citations?hl=en&authuser=3&user=JuVBGZYAAAAJ)
 - [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=3&user=JuVBGZYAAAAJ)
 - [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)
 - [Integrating IOT And AI For End-To-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)

@@ -57,7 +57,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - **Keynote Speaker**: July 26th, 2025 –  [Conference AIC 2025](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
 - **Keynote Speaker**: October 16th, 2025 –  [International Conference on Artificial Intelligence and Deep Learning Applications](https://www.nerdpublication.com/icaidlp/)
 - **Keynote Speaker**: December 5th, 2025 –  [Smart Computing and Communication for Sustainable Convergence](https://chitkara.edu.in/isccsc/speakers.html)  
-- **Keynote Speaker**: January 20th, 2026 –  [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)  
+- **Keynote Speaker**: January 20th, 2026 –  [Conference ETLTC-ICETM 2026](https://www.interconf-etltc.net/keynotes)
+- **Industry Speaker**: March 25th 2026 -  [Fintech Festival Kenya 2026](https://fintechfestivalkenya.com/)
 
 ---
 

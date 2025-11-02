@@ -83,6 +83,8 @@ Personal website and professional portfolio of Rahul Autade, showcasing expertis
 - 
 ---
 
+## **Membership**
+
 ## **Work Experience & Projects**
 
 **3Itek – Senior Payments Implementation Manager (Global PayPlus – PNC Implementation)**  

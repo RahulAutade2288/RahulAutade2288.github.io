@@ -1,7 +1,3 @@
-# Rahul 2288
-# Sr. Manager - Payments Implementation
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -307,7 +303,7 @@
     <div class="nav-title">RAHUL AUTADE</div>
     <div class="nav-links">
       <a href="#summary">Profile</a>
-      <a href="#eb1a">EB-1A Highlights</a>
+      <a href="#eb1a">Highlights</a>
       <a href="#projects">Projects</a>
       <a href="#publications">Publications</a>
       <a href="#service">Service</a>
@@ -337,7 +333,7 @@
       </div>
 
       <div class="hero-links">
-        <a class="btn" href="Rahul_Autade_EB1A_CV.pdf" target="_blank">Download EB-1A CV</a>
+        <a class="btn" href="Rahul_Autade_EB1A_CV.pdf" target="_blank">Download CV</a>
         <a class="btn btn-outline" href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar</a>
         <a class="btn btn-outline" href="https://github.com/RahulAutade2288" target="_blank">GitHub Profile</a>
       </div>
@@ -389,7 +385,7 @@
   <!-- EB1A HIGHLIGHTS -->
   <section id="eb1a">
     <div class="section-header">
-      <h2 class="section-title">EB-1A Evidence Highlights</h2>
+      <h2 class="section-title">Evidence Highlights</h2>
       <span class="section-subtitle">Summary of extraordinary ability criteria</span>
     </div>
 

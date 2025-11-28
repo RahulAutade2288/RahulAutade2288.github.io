@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -13,7 +14,7 @@
       --primary-soft: #e2ecf8;
       --accent: #009688;
       --text: #1f2933;
-      --muted: #6b7b8a;
+      --muted: #5a6b7c;
       --border: #dde3ec;
       --shadow-soft: 0 8px 20px rgba(15, 35, 52, 0.06);
       --radius-lg: 16px;
@@ -75,6 +76,7 @@
       font-size: 0.9rem;
       color: var(--muted);
       font-weight: 500;
+      padding: 0.25rem 0;
     }
 
     .nav-links a:hover {
@@ -100,6 +102,14 @@
       border-radius: 24px;
       box-shadow: var(--shadow-soft);
       border: 1px solid #e1e8f5;
+    }
+
+    .hero-kicker {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
     }
 
     .hero-title {
@@ -158,6 +168,13 @@
       background: var(--primary);
       color: #ffffff;
       box-shadow: 0 6px 16px rgba(0, 76, 151, 0.25);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+    }
+
+    .btn:hover {
+      transform: translateY(-1px);
+      box-shadow: 0 10px 24px rgba(0, 76, 151, 0.28);
+      text-decoration: none;
     }
 
     .btn-outline {
@@ -167,9 +184,8 @@
       box-shadow: none;
     }
 
-    .btn:hover {
-      filter: brightness(1.03);
-      text-decoration: none;
+    .btn-outline:hover {
+      background: var(--primary-soft);
     }
 
     .hero-metrics {
@@ -198,6 +214,11 @@
     /* SECTION */
     section {
       margin-bottom: 2.2rem;
+    }
+
+    section + section {
+      border-top: 1px solid rgba(221, 227, 236, 0.6);
+      padding-top: 1.8rem;
     }
 
     .section-header {
@@ -283,12 +304,12 @@
       .nav {
         flex-direction: column;
         align-items: flex-start;
-        gap: 0.4rem;
+        gap: 0.3rem;
       }
       .nav-links {
         display: flex;
         flex-wrap: wrap;
-        gap: 0.6rem;
+        gap: 0.4rem 1rem;
       }
       .two-column {
         grid-template-columns: 1fr;
@@ -300,14 +321,15 @@
 <header>
   <div class="nav">
     <div class="nav-title">RAHUL AUTADE</div>
-    <div class="nav-links">
+    <nav class="nav-links" aria-label="Main navigation">
       <a href="#summary">Profile</a>
       <a href="#eb1a">Highlights</a>
+      <a href="#timeline">Timeline</a>
       <a href="#projects">Projects</a>
       <a href="#publications">Publications</a>
       <a href="#service">Service</a>
       <a href="#contact">Contact</a>
-    </div>
+    </nav>
   </div>
 </header>
 
@@ -315,8 +337,9 @@
   <!-- HERO -->
   <section class="hero">
     <div>
+      <div class="hero-kicker">Payments Architecture · Real-Time Systems · AI-Driven FinTech</div>
       <h1 class="hero-title">Rahul Autade</h1>
-      <div class="hero-subtitle">Senior Technology Manager – Payment Architecture & FinTech Engineering</div>
+      <div class="hero-subtitle">Senior Technology Manager – Payment Architecture &amp; FinTech Engineering</div>
       <p class="hero-tagline">
         Architect of large-scale payment hubs, real-time payment systems, and ISO 20022–native platforms for Tier-1 U.S. banks and global financial institutions.
         Combining enterprise product R&amp;D with applied AI and FinTech research.
@@ -370,22 +393,36 @@
     <div class="card">
       <p class="muted">
         Recognized global authority in payments modernization, real-time payment architecture, FinTech innovation, ISO 20022 transformation, and cloud-native financial systems.
-        Architect of foundational components of Global PAYplus, a platform adopted by more than 200 banks across over 160 countries and processing billions of dollars in daily transactions.
-        Lead designer of the Nuvono next-generation payment engine and a principal contributor to real-time, multi-rail, and digital-settlement modernization programs at major U.S. financial institutions.
       </p>
-      <p class="muted" style="margin-top:0.6rem;">
-        Widely published across IEEE, Springer, and international peer-reviewed journals, with more than 135 citations demonstrating external academic influence.
-        Senior Member of IEEE and Full Member of Sigma Xi (Carnegie Mellon University Chapter).
-        Frequently selected as reviewer, judge, keynote speaker, technical program committee member, and session chair for global AI, FinTech, and intelligent-systems conferences, reflecting recognized expertise and leadership in the field.
-      </p>
+      <ul>
+        <li class="muted">Architect of foundational components of Global PAYplus, a payment hub adopted by more than 200 banks across over 160 countries and processing billions of dollars in daily transactions.</li>
+        <li class="muted">Lead designer of the Nuvono next-generation payment engine and a principal contributor to real-time, multi-rail, and digital-settlement modernization programs at major U.S. financial institutions.</li>
+        <li class="muted">Widely published across IEEE, Springer, and international peer-reviewed journals, with more than 135 citations demonstrating external academic influence.</li>
+        <li class="muted">Senior Member of IEEE and Full Member of Sigma Xi (Carnegie Mellon University Chapter), frequently selected as reviewer, judge, keynote speaker, technical program committee member, and session chair for global AI, FinTech, and intelligent-systems conferences.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CAREER TIMELINE -->
+  <section id="timeline">
+    <div class="section-header">
+      <h2 class="section-title">Career Snapshot</h2>
+      <span class="section-subtitle">Key roles in payments and FinTech</span>
+    </div>
+    <div class="card">
+      <ul>
+        <li><strong>2022 – Present:</strong> Senior Technology Manager at 3iTek, core architecture and engineering team for Nuvono – next-generation universal transaction banking platform powering Zelle and upcoming RTP/FedNow programs at Truist Bank.</li>
+        <li><strong>2003 – 2021:</strong> R&amp;D and payments architecture roles at CashTech → Fundtech → Finastra, authoring FRSD specifications and shaping core capabilities of Global PAYplus.</li>
+        <li><strong>Global Implementations:</strong> Led or contributed to payment modernization initiatives for PNC, Bank of America, Citi, Shinsei Bank in Japan, and other Tier-1 institutions across high-value, real-time, and cross-border rails.</li>
+      </ul>
     </div>
   </section>
 
   <!-- EB1A HIGHLIGHTS -->
   <section id="eb1a">
     <div class="section-header">
-      <h2 class="section-title">Evidence Highlights</h2>
-      <span class="section-subtitle">Summary of extraordinary ability criteria</span>
+      <h2 class="section-title">EB-1A Evidence Highlights</h2>
+      <span class="section-subtitle">Summary mapped to extraordinary ability criteria</span>
     </div>
 
     <div class="two-column">
@@ -537,7 +574,7 @@
     </div>
     <div class="card">
       <p class="muted">
-        I am open to invited talks, expert panels, collaboration on research in payments modernization, AI-driven fraud detection, FinTech architecture,
+        I am open to invited talks, expert panels, and collaboration on research in payments modernization, AI-driven fraud detection, FinTech architecture,
         and digital banking transformation.
       </p>
       <ul>

@@ -1,226 +1,565 @@
 # Rahul 2288
 # Sr. Manager - Payments Implementation
 
-<!--
-Personal website and professional portfolio of Rahul Autade, showcasing expertise in fintech, payments innovation, AI research, technical documentation, and contributions to global technology conferences and projects.
--->
 
-<!-- Commented below profile to make it invisible. Uncomment it when we want to use it -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rahul Autade | Payment Architecture & FinTech Engineering</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Portfolio of Rahul Autade – Senior Technology Manager specializing in payments modernization, FinTech engineering, ISO 20022, and real-time payment architectures." />
 
-<img src="https://res.cloudinary.com/superfolio/image/upload/v1620689979/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f63362f33332f63322f63363333633230656465383266306530636564376435373064626533613166332e676966_yjuh2s.gif" alt="soura-banner">
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --bg-alt: #ffffff;
+      --primary: #004c97;
+      --primary-soft: #e2ecf8;
+      --accent: #009688;
+      --text: #1f2933;
+      --muted: #6b7b8a;
+      --border: #dde3ec;
+      --shadow-soft: 0 8px 20px rgba(15, 35, 52, 0.06);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
+      --max-width: 1100px;
+    }
 
-<h1 align="center"> Hi there, I'm <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank" rel="noopener noreferrer"> Rahul Autade </a> </h1>
-<h3 align="center"><i>A Senior Manager (Payments Implementation)</i></h3>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
----
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #e6f0ff, #f5f7fb 40%, #ffffff);
+      color: var(--text);
+      line-height: 1.6;
+    }
 
-<div align="center">
-  <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo" />
-  </a>
-</div>
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
 
----
+    a:hover {
+      text-decoration: underline;
+    }
 
-<div align="center">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=RahulAutade2288.RahulAutade2288" />
-</div>
+    header {
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(245,247,251,0.85);
+    }
 
-<h3 align="left">👨‍💻 About Me</h3>
+    .nav {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0.8rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
 
-<p align="left">
-  I am Rahul Autade, a seasoned FinTech professional and Senior Manager with 22+ years of experience in payments modernization, digital banking solutions, and high-volume payment processing systems.<br><br>
+    .nav-title {
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      color: var(--primary);
+    }
 
-  - 💳 <b>FinTech Expertise</b> – Specialized in <b>Real-Time Payments</b>, <b>AI & Data Analytics</b>, <b>Digital Banking</b>, <b>Fraud Detection & Risk Management</b>, and <b>Cybersecurity</b> for secure and scalable financial solutions.<br><br>
-  
-  - 🔭 <b>Expert in Payment Systems Architecture, Modernization, and Implementation</b> – Led large-scale <b>payment modernization programs for top U.S. banks</b>, including deployments of <b>Global PayPlus (GPP)</b>, <b>RTP</b>, <b>SWIFT</b>, <b>FEDWIRE</b>, <b>CHIPS</b>, and cross-border payment systems.<br><br>
-  
-  - 🎤 <b>Conference Speaker & Keynote Leader</b> – Invited keynote speaker at <b>IEEE AIC 2025</b>, <b>Fintech Festival Africa 2025</b>, and other international conferences on AI, fintech, and payments innovation.<br><br>
-  
-  - 📄 <b>Research & Paper Reviews</b> – Serve as a reviewer and session chair for leading IEEE and international conferences, evaluating advanced solutions in AI, cybersecurity, and financial technologies.<br><br>
-  
-  - 🏆 <b>Hackathon & Awards Judge</b> – Judge for global technology competitions, fintech hackathons, and innovation awards, supporting the growth of emerging fintech solutions.<br><br>
-  
-  - 📚 <b>Technical Expertise</b> – Proficient in <b>Python</b>, <b>Java</b>, <b>J2EE</b>, <b>Oracle</b>, <b>SQL</b>, <b>SOA architecture</b>, <b>microservices</b>, <b>API development</b>, and <b>DevOps/cloud-native deployments</b> (AWS, Docker, Kubernetes).<br><br>
-  
-  - ⚡ <b>Passionate About Innovation</b> – Advocate for AI-driven fraud detection, blockchain-based payments, and real-time transaction authentication.<br><br>
-  
-  - 💡 <b>Mentorship & Exploration</b> – In my free time, I explore new technologies, mentor aspiring professionals, and contribute to open-source projects.<br><br>
-</p>
+    .nav-links a {
+      margin-left: 1.2rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-weight: 500;
+    }
 
+    .nav-links a:hover {
+      color: var(--primary);
+      text-decoration: none;
+    }
 
----
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
 
-## **Talks**
-I have been invited to deliver keynote and industry talks at international conferences and professional events focusing on AI, FinTech, and digital transformation.  
+    /* HERO */
+    .hero {
+      display: grid;
+      grid-template-columns: minmax(0, 2.4fr) minmax(0, 1.6fr);
+      gap: 2rem;
+      align-items: center;
+      padding: 2rem;
+      margin: 1.5rem 0 2.5rem;
+      background: linear-gradient(135deg, #ffffff, #edf3ff);
+      border-radius: 24px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid #e1e8f5;
+    }
 
-- **Product Speaker** – May 17, 2025: [Pittsburgh Product Camp](https://www.pghpcamp.com/proposed-sessions.html)  
-- **Keynote Speaker** – June 12, 2025: [The Fintech Festival Tanzania 2025](https://fintechfestival.africa/list-of-speakers/)  
-- **Keynote Speaker** – July 26, 2025: [IEEE Conference on Applied Intelligence and Computing (AIC 2025)](https://www.scrs.in/conference/aic2025/speaker/talk/1035)  
-- **Keynote Speaker** – October 16, 2025: [International Conference on Artificial Intelligence and Deep Learning Applications (ICAIDLP)](https://www.nerdpublication.com/icaidlp/)  
-- **Keynote Speaker** – December 5, 2025: [Smart Computing and Communication for Sustainable Convergence (ISCCSC 2025)](https://chitkara.edu.in/isccsc/speakers.html)  
-- **Keynote Speaker** – January 20, 2026: [Conference ETLTC–ICETM 2026](https://www.interconf-etltc.net/keynotes)  
-- **Industry Speaker** – March 25, 2026: [Fintech Festival Kenya 2026](https://fintechfestivalkenya.com/)
+    .hero-title {
+      font-size: 2rem;
+      font-weight: 750;
+      margin-bottom: 0.4rem;
+      color: #132743;
+    }
 
----
+    .hero-subtitle {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--primary);
+      margin-bottom: 0.8rem;
+    }
 
-## Paper Publications  
+    .hero-tagline {
+      font-size: 0.95rem;
+      color: var(--muted);
+      margin-bottom: 1.2rem;
+    }
 
-[View on Google Scholar →](https://scholar.google.com/citations?hl=en&authuser=3&user=JuVBGZYAAAAJ)
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1.4rem;
+    }
 
-My research focuses on the convergence of Artificial Intelligence, FinTech, Blockchain, and Quantum Computing to advance secure, transparent, and data-driven financial ecosystems.  
+    .tag {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: var(--radius-pill);
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 500;
+    }
 
-- [Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis](https://ieeexplore.ieee.org/abstract/document/11051811)  
-- [Integrating IoT and AI for End-to-End Agricultural Intelligence Systems](https://ieeexplore.ieee.org/abstract/document/11051863)  
-- [Quantum Computing for Fraud Detection in Real-Time Payment Systems](https://ieeexplore.ieee.org/abstract/document/11158810)  
-- [Multi-Modal GANs for Real-Time Anomaly Detection in Machine and Financial Activity Streams](https://ijaidsml.org/index.php/ijaidsml/article/view/145)  
-- [AI Models for Real-Time Risk Assessment in Decentralized Finance](https://annalsofappliedsciences.com/index.php/aas/article/view/30)  
-- [Financial Security and Transparency with Blockchain Solutions](https://tojqi.net/journal/article/view/10703)  
-- [Enhancing Blockchain Payment Security with Federated Learning](https://www.ijcnwc.com/admin/uploads/Enhancing%20Blockchain%20Payment%20Security%20with%20Federated%20Learning.pdf)  
-- [Green FinTech and Its Influence on Sustainable Financial Practices](https://hal.science/hal-05215332/)  
-- [AI-Powered Predictive Maintenance in Industrial IoT](https://ijstpublication.com/index.php/ijst/article/view/17)  
-- [Navigating Challenges in Real-Time Payment Systems in FinTech](https://ijaidsml.org/index.php/ijaidsml/article/view/108)
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.7rem;
+      align-items: center;
+    }
 
----
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1.1rem;
+      border-radius: var(--radius-pill);
+      font-size: 0.88rem;
+      font-weight: 600;
+      border: 1px solid transparent;
+      cursor: pointer;
+      background: var(--primary);
+      color: #ffffff;
+      box-shadow: 0 6px 16px rgba(0, 76, 151, 0.25);
+    }
 
-## **Reviewing** , **Committee Member**
+    .btn-outline {
+      background: #ffffff;
+      border-color: var(--border);
+      color: var(--primary);
+      box-shadow: none;
+    }
 
-**Total papers reviewed:** Over 100 scholarly manuscripts spanning AI, FinTech, and cybersecurity domains for IEEE and international conferences, reflecting active engagement in global research review.  
+    .btn:hover {
+      filter: brightness(1.03);
+      text-decoration: none;
+    }
 
-I actively contribute to global research and academic collaboration through technical program committees, reviewer panels, and organizing committees across leading international conferences.  
+    .hero-metrics {
+      padding: 1.4rem 1.2rem;
+      border-radius: 18px;
+      border: 1px dashed #d3ddf0;
+      background: #f7f8fc;
+      font-size: 0.85rem;
+    }
 
-- **International Programme Committee Member** – [First International Conference on Big Data Analytics & Applications (BDAA 2025)](https://bdaa-conference.com/)  
-- **Program Committee Member** – [International Semantic Intelligence Conference (ISIC 2025)](https://www.ifis.uni-luebeck.de/~groppe/isic/2025/dates)  
-- **Technical Committee Member** – [International Conference on Innovations in Engineering, Science and Technology for Sustainable Development (ICEST 2025)](https://icest.mnu.edu.mv/technicalcomm)  
-- **Organizing Committee Member** – [International Conference on Breakthrough Technologies for Sustainable Development (ICBTSD 2025)](https://www.ftccoe.ac.in/icbtsd2025/organizing_committee)  
-- **Reviewer Committee Member** – [IEEE Global Humanitarian Technology Conference (GHTC 2025)](https://ieeeghtc.org/committee-contacts/ghtc-2025-reviewers/)  
-- **Reviewer Committee Member** – [17th International ACM Conference on Automotive User Interfaces and Interactive Vehicular Applications, Brisbane, Australia](https://dl.acm.org/action/showFmPdf?doi=10.1145%2F3744333)
+    .metric-row {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.5rem;
+    }
 
+    .metric-label {
+      color: var(--muted);
+    }
 
----
+    .metric-value {
+      font-weight: 650;
+      color: #102542;
+    }
 
-## **Judging**  
-I have served as a judge for several prestigious academic, engineering, and business competitions at the university, national, and international levels. These experiences reflect my continued engagement in supporting innovation, research, and student excellence across diverse disciplines.
+    /* SECTION */
+    section {
+      margin-bottom: 2.2rem;
+    }
 
-- **Purdue University** – Judge at the [Undergraduate Research Conference](https://www.purdue.edu/undergrad-research/conferences/thanks.php)  
-- **Project ECHO** – Business Plan Competition Judge  
-- **eCYBERMISSION & U.S. Army Educational Outreach Program (AEOP)** – Science, Engineering, and Mathematics Competition Judge  
-- **Pittsburgh Regional Science and Engineering Fair** – IEEE Judge  
-- **International Rocket Engineering Competition (IREC)** – Technical Judge  
-- **University of Pittsburgh, Swanson School of Engineering Design Expo** – Industry Judge  
-- **VEI National Video Commercial Competition** – Industry Judge  
-- **The Youth Business Summit, New York** – Industry Judge  
-- **VEX Robotics World Championship** – Industry Judge
- 
----
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+    }
 
-## **Membership**
-I am an active member of several distinguished professional and research organizations that promote innovation, collaboration, and academic excellence in science, technology, and finance.  
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #132743;
+    }
 
-- **Sigma Xi – The Scientific Research Honor Society**  
-- **IEEE – Senior Member**  
-- **American Bankers Association (ABA)**  
-- **Association for Computing Machinery (ACM)**  
-- **International Association of Engineers (IAENG)**  
-- **International Organization for Academic and Scientific Development (IOASD)**
-  
----
+    .section-subtitle {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
 
-## **News About My Work**
-My professional work in payments innovation, digital banking modernization, and financial systems integration has been featured in several leading fintech and industry publications.
+    .card {
+      background: var(--bg-alt);
+      border-radius: var(--radius-lg);
+      padding: 1.2rem 1.3rem;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-soft);
+      margin-bottom: 1rem;
+    }
 
-- [PNC Live on New Real-Time Payments Network Using Finastra](https://www.finastra.com/press-media/pnc-live-new-real-time-payments-network-using-finastra)  
-- [PNC Goes Live on The Clearing House’s Real-Time Payments Network](https://www.pymnts.com/news/b2b-payments/2017/pnc-clearing-house-real-time-payments-finastra/)  
-- [PNC Selects Finastra for Live Deployment on Real-Time Payments Network](https://financialit.net/news/payments/pnc-selects-finastra-live-real-time-payments-network)  
-- [Fundtech’s U.S. Wire System Adds FX Transactions Through PNC Bank](https://www.theglobaltreasurer.com/2013/02/13/fundtechs-us-wire-system-adds-fx-transactions-through-pnc-bank/)  
-- [Fundtech Adds Cash Management and Messaging to Its SOA Services Platform](https://www.nbcnews.com/id/wbna39843021)
+    .card h3 {
+      font-size: 0.98rem;
+      margin-bottom: 0.3rem;
+      color: #15233a;
+    }
 
----
+    .pill {
+      display: inline-block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.12rem 0.5rem;
+      border-radius: var(--radius-pill);
+      background: #f0f4ff;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
 
-## **Work Experience & Projects**
+    ul {
+      margin-left: 1.1rem;
+      margin-top: 0.3rem;
+      margin-bottom: 0.2rem;
+      font-size: 0.9rem;
+    }
 
-**3Itek – Senior Payments Implementation Manager (Global PayPlus – PNC Implementation)**  
-*June 2022 – Present*  
-- Spearheaded the end-to-end implementation of the Global PayPlus (GPP) payment engine at PNC Bank, including core payment engine and branch applications.  
-- Delivered seamless integration of payment schemes such as BOOK, FED, Earthport, SWIFT, Real-Time Payments (RTP), and CHIPS using GPP.  
-- Led cross-functional teams, ensuring alignment of technical design, compliance, and operational excellence for high-volume payment processing systems.
+    li + li {
+      margin-top: 0.15rem;
+    }
 
-**Finastra – Payment Implementation Architect (Global PayPlus – PNC Implementation)**  
-*June 2015 – January 2022*  
-- Directed the Global PayPlus (GPP) deployment for PNC’s payment modernization program, focusing on scalability and high availability.  
-- Designed and implemented complex payment flows across multiple rails (e.g., SWIFT, RTP, FEDWIRE) with strong adherence to regulatory and risk controls.  
-- Collaborated with enterprise architecture teams to enhance fraud detection and operational monitoring mechanisms.
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 1rem;
+    }
 
-**Finastra – Architect & Implementation Lead (Bank of America – GPP-SP)**  
-*April 2009 – June 2015*  
-- Led the Payments Services Hub architecture and implementation for Bank of America, leveraging Global PayPlus (GPP-SP) to enhance payments processing efficiency.  
-- Served as Subject Matter Expert (SME) for payment systems, providing strategic direction on cross-border payments, real-time settlements, and SWIFT integration.  
-- Drove performance optimization initiatives, resulting in improved transaction throughput and reduced operational costs.
+    .muted {
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
 
-**Finastra – Development Lead (Global PayPlus – GPP-SP)**  
-*September 2003 – April 2009*  
-- Led Java-based software development for TCRemit, a FundTech (now Finastra) product enabling cross-border money transfers, remittances, and settlement services.  
-- Designed and delivered high-performance modules supporting remitter and exchange house operations with compliance to AML and OFAC requirements.  
-- Mentored a team of developers, ensuring code quality, scalability, and adherence to best practices in payment system development.
+    footer {
+      padding-top: 1.5rem;
+      border-top: 1px solid #e0e5f2;
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
 
----
+    @media (max-width: 800px) {
+      .hero {
+        grid-template-columns: 1fr;
+      }
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.4rem;
+      }
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.6rem;
+      }
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="nav-title">RAHUL AUTADE</div>
+    <div class="nav-links">
+      <a href="#summary">Profile</a>
+      <a href="#eb1a">EB-1A Highlights</a>
+      <a href="#projects">Projects</a>
+      <a href="#publications">Publications</a>
+      <a href="#service">Service</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+</header>
 
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div>
+      <h1 class="hero-title">Rahul Autade</h1>
+      <div class="hero-subtitle">Senior Technology Manager – Payment Architecture & FinTech Engineering</div>
+      <p class="hero-tagline">
+        Architect of large-scale payment hubs, real-time payment systems, and ISO 20022–native platforms for Tier-1 U.S. banks and global financial institutions.
+        Combining enterprise product R&amp;D with applied AI and FinTech research.
+      </p>
 
-### **Technical Skills**
+      <div class="hero-tags">
+        <span class="tag">Payments Modernization</span>
+        <span class="tag">Real-Time Payments (RTP)</span>
+        <span class="tag">ISO 20022</span>
+        <span class="tag">FinTech Architecture</span>
+        <span class="tag">Cloud-Native Banking</span>
+        <span class="tag">AI &amp; Fraud Detection</span>
+      </div>
 
-<div align="left">
-  Python
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo" />
-  <img width="12" />
-  Java
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="40" alt="java logo" />
-  <img width="12" />
-  C++
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" height="40" alt="c++ logo" />
-  <img width="12" />
-  Oracle
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" height="40" alt="oracle logo" />
-  <img width="12" />
-  MySQL
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" height="40" alt="mysql logo" />
-  <img width="12" />
-  MongoDB
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo" />
-  <img width="12" />
-  AWS
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" height="40" alt="aws logo" />
-  <img width="12" />
-  Docker
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo" />
-  <img width="12" />
-  Kubernetes
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" height="40" alt="kubernetes logo" />
-  <img width="12" />
-  Jenkins
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" height="40" alt="jenkins logo" />
-  <img width="12" />
-  Git
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" alt="git logo" />
-  <img width="12" />
-  Apache Kafka
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachekafka/apachekafka-original.svg" height="40" alt="kafka logo" />
-</div>
+      <div class="hero-links">
+        <a class="btn" href="Rahul_Autade_EB1A_CV.pdf" target="_blank">Download EB-1A CV</a>
+        <a class="btn btn-outline" href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar</a>
+        <a class="btn btn-outline" href="https://github.com/RahulAutade2288" target="_blank">GitHub Profile</a>
+      </div>
+    </div>
 
----
+    <div class="hero-metrics">
+      <div class="metric-row">
+        <span class="metric-label">Industry Experience</span>
+        <span class="metric-value">21+ years</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Global Banks Impacted</span>
+        <span class="metric-value">200+ institutions</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Countries Reached</span>
+        <span class="metric-value">160+ countries</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Scholarly Citations</span>
+        <span class="metric-value">135+ citations</span>
+      </div>
+      <div class="metric-row">
+        <span class="metric-label">Key Organizations</span>
+        <span class="metric-value">Finastra, PNC, BofA, Citi, Truist</span>
+      </div>
+    </div>
+  </section>
 
-### **Education**
-- **Post Graduate Diploma in Computer Science** – *June 2002*  
-- **Bachelor of Science (B.S.) in Computer Science** – *May 2001*
+  <!-- EXECUTIVE SUMMARY -->
+  <section id="summary">
+    <div class="section-header">
+      <h2 class="section-title">Executive Profile</h2>
+    </div>
+    <div class="card">
+      <p class="muted">
+        Recognized global authority in payments modernization, real-time payment architecture, FinTech innovation, ISO 20022 transformation, and cloud-native financial systems.
+        Architect of foundational components of Global PAYplus, a platform adopted by more than 200 banks across over 160 countries and processing billions of dollars in daily transactions.
+        Lead designer of the Nuvono next-generation payment engine and a principal contributor to real-time, multi-rail, and digital-settlement modernization programs at major U.S. financial institutions.
+      </p>
+      <p class="muted" style="margin-top:0.6rem;">
+        Widely published across IEEE, Springer, and international peer-reviewed journals, with more than 135 citations demonstrating external academic influence.
+        Senior Member of IEEE and Full Member of Sigma Xi (Carnegie Mellon University Chapter).
+        Frequently selected as reviewer, judge, keynote speaker, technical program committee member, and session chair for global AI, FinTech, and intelligent-systems conferences, reflecting recognized expertise and leadership in the field.
+      </p>
+    </div>
+  </section>
 
----
-### **Certification**
-- **Global PayPlus Classic**
-- **Global PayPlus SP**
+  <!-- EB1A HIGHLIGHTS -->
+  <section id="eb1a">
+    <div class="section-header">
+      <h2 class="section-title">EB-1A Evidence Highlights</h2>
+      <span class="section-subtitle">Summary of extraordinary ability criteria</span>
+    </div>
 
----
+    <div class="two-column">
+      <div class="card">
+        <span class="pill">Original Contributions &amp; Critical Roles</span>
+        <ul>
+          <li>Architected FRSD specifications for Global PAYplus, used by 200+ financial institutions across 160+ countries.</li>
+          <li>Led key ISO 20022 and real-time payment modernization initiatives for Tier-1 U.S. banks.</li>
+          <li>Critical role in PNC Bank’s early RTP certification and go-live on The Clearing House Real-Time Payments Network.</li>
+          <li>Core architect for Nuvono, a next-generation cloud-native payment platform deployed at Truist Bank.</li>
+        </ul>
+      </div>
 
+      <div class="card">
+        <span class="pill">Scholarly Work &amp; Judging</span>
+        <ul>
+          <li>Author of fourteen scholarly publications spanning IEEE, Springer, and peer-reviewed journals.</li>
+          <li>More than 135 Google Scholar citations, reflecting independent international recognition.</li>
+          <li>Reviewer for 75+ IEEE conference papers, ACM events, and international journals.</li>
+          <li>Keynote speaker, panel moderator, and session chair at international AI, FinTech, and intelligent-systems conferences.</li>
+          <li>Full Member of Sigma Xi (Carnegie Mellon University Chapter) and IEEE Senior Member.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-header">
+      <h2 class="section-title">Open-Source &amp; Technical Projects</h2>
+      <span class="section-subtitle">Selected public work in FinTech and AI</span>
+    </div>
 
+    <div class="card">
+      <h3>Digital Payments System Blueprint</h3>
+      <p class="muted">
+        An end-to-end architectural blueprint for modern digital payment systems, including multi-rail routing, ISO 20022 message flows,
+        RTP lifecycles, cross-border FX processing, and compliance integration.
+      </p>
+      <ul>
+        <li>Models Wire, ACH, RTP, FedNow, and cross-border flows.</li>
+        <li>Includes conceptual FRSD-style specifications and workflow diagrams.</li>
+        <li>Designed as a learning and reference resource for engineers, architects, and students.</li>
+      </ul>
+      <p class="muted">
+        GitHub: <a href="https://github.com/RahulAutade2288/digital-payments-system-blueprint" target="_blank">digital-payments-system-blueprint</a>
+      </p>
+    </div>
 
+    <div class="card">
+      <h3>Federated Fraud Detection Framework</h3>
+      <p class="muted">
+        Prototype implementation of federated learning–based fraud detection for financial transactions, enabling multiple institutions to
+        collaboratively train models without sharing raw data.
+      </p>
+      <ul>
+        <li>Supports experimental real-time and batch anomaly detection.</li>
+        <li>Explores privacy-preserving collaboration in FinTech.</li>
+        <li>Aligned with research on federated learning and secure AI in finance.</li>
+      </ul>
+      <p class="muted">
+        GitHub: <a href="https://github.com/RahulAutade2288/fraud-detection-federated" target="_blank">fraud-detection-federated</a>
+      </p>
+    </div>
 
+    <div class="card">
+      <h3>Additional Repositories</h3>
+      <p class="muted">
+        More repositories, sample code, and research prototypes are available on my GitHub profile.
+      </p>
+      <p class="muted">
+        Profile: <a href="https://github.com/RahulAutade2288" target="_blank">github.com/RahulAutade2288</a>
+      </p>
+    </div>
+  </section>
 
+  <!-- PUBLICATIONS -->
+  <section id="publications">
+    <div class="section-header">
+      <h2 class="section-title">Selected Publications</h2>
+      <span class="section-subtitle">IEEE, Springer, and peer-reviewed journals</span>
+    </div>
+
+    <div class="card">
+      <span class="pill">IEEE &amp; Springer</span>
+      <ul>
+        <li>Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis.</li>
+        <li>Quantum Computing for Fraud Detection in Real-Time Payment Systems.</li>
+        <li>AI-Enabled Blockchain Framework for Detecting Threats in Payment Systems.</li>
+        <li>Edge AI for Real-Time Transaction Authentication in IoT-Based Banking.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="pill">Peer-Reviewed Journals</span>
+      <ul>
+        <li>AI Models for Real-Time Risk Assessment in Decentralized Finance.</li>
+        <li>Financial Security and Transparency with Blockchain Solutions.</li>
+        <li>Multi-Modal GANs for Real-Time Anomaly Detection in Financial Activity Streams.</li>
+        <li>Enhancing Blockchain Payment Security with Federated Learning.</li>
+        <li>Navigating Challenges in Real-Time Payment Systems in FinTech.</li>
+        <li>AI-Powered Predictive Maintenance in Industrial IoT.</li>
+        <li>Green FinTech and Its Influence on Sustainable Financial Practices.</li>
+      </ul>
+      <p class="muted">
+        Complete list: <a href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar Profile</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICE & COMMUNITY -->
+  <section id="service">
+    <div class="section-header">
+      <h2 class="section-title">Judging, Advisory &amp; Community Service</h2>
+      <span class="section-subtitle">Professional &amp; academic contributions</span>
+    </div>
+
+    <div class="card">
+      <span class="pill">Peer Review &amp; Committees</span>
+      <ul>
+        <li>Reviewer for more than 75 IEEE conference papers and several ACM and journal submissions.</li>
+        <li>Technical program committee member for international conferences in AI, cybersecurity, and FinTech.</li>
+        <li>Session Chair for IIPEM 2025 (Amity University &amp; IEEE Singapore Chapter).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="pill">Judging &amp; Mentorship</span>
+      <ul>
+        <li>Judge for international innovation challenges, hackathons, and student research presentations.</li>
+        <li>Mentor for students and early-career professionals in AI, cybersecurity, and financial technology.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="pill">Professional Memberships</span>
+      <ul>
+        <li>Full Member, Sigma Xi – Carnegie Mellon University Chapter.</li>
+        <li>Senior Member, IEEE.</li>
+        <li>Member, ACM, IAENG, ABA, IOASD (Royal Fellow).</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-header">
+      <h2 class="section-title">Contact</h2>
+    </div>
+    <div class="card">
+      <p class="muted">
+        I am open to invited talks, expert panels, collaboration on research in payments modernization, AI-driven fraud detection, FinTech architecture,
+        and digital banking transformation.
+      </p>
+      <ul>
+        <li>Email: <a href="mailto:rahul2288@gmail.com">rahul2288@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank">linkedin.com/in/rahul-autade-61310158</a></li>
+        <li>GitHub: <a href="https://github.com/RahulAutade2288" target="_blank">github.com/RahulAutade2288</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Rahul Autade · Payments Modernization &amp; FinTech Engineering
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

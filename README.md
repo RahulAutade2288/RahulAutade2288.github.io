@@ -16,6 +16,7 @@
       --muted: #6b7b8a;
       --border: #dde3ec;
       --shadow-soft: 0 8px 20px rgba(15, 35, 52, 0.06);
+      --shadow-hover: 0 14px 30px rgba(15, 35, 52, 0.10);
       --radius-lg: 16px;
       --radius-md: 12px;
       --radius-pill: 999px;
@@ -50,7 +51,7 @@
       position: sticky;
       top: 0;
       z-index: 50;
-      background: rgba(245,247,251,0.85);
+      background: rgba(245,247,251,0.9);
     }
 
     .nav {
@@ -158,6 +159,7 @@
       background: var(--primary);
       color: #ffffff;
       box-shadow: 0 6px 16px rgba(0, 76, 151, 0.25);
+      transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
     }
 
     .btn-outline {
@@ -168,8 +170,10 @@
     }
 
     .btn:hover {
-      filter: brightness(1.03);
+      filter: brightness(1.04);
+      transform: translateY(-1px);
       text-decoration: none;
+      box-shadow: 0 10px 24px rgba(0, 76, 151, 0.28);
     }
 
     .hero-metrics {
@@ -197,7 +201,7 @@
 
     /* SECTION */
     section {
-      margin-bottom: 2.2rem;
+      margin-bottom: 2.6rem;
     }
 
     .section-header {
@@ -209,8 +213,21 @@
 
     .section-title {
       font-size: 1.1rem;
-      font-weight: 700;
+      font-weight: 750;
       color: #132743;
+      position: relative;
+      padding-left: 0.6rem;
+    }
+
+    .section-title::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 0.3rem;
+      bottom: 0.3rem;
+      width: 3px;
+      border-radius: 999px;
+      background: linear-gradient(180deg, var(--primary), var(--accent));
     }
 
     .section-subtitle {
@@ -225,6 +242,13 @@
       border: 1px solid var(--border);
       box-shadow: var(--shadow-soft);
       margin-bottom: 1rem;
+      transition: box-shadow 0.15s ease, transform 0.15s ease, border-color 0.15s ease;
+    }
+
+    .card:hover {
+      box-shadow: var(--shadow-hover);
+      border-color: #c7d4f0;
+      transform: translateY(-2px);
     }
 
     .card h3 {
@@ -316,9 +340,9 @@
   <section class="hero">
     <div>
       <h1 class="hero-title">Rahul Autade</h1>
-      <div class="hero-subtitle">Senior Technology Manager – Payment Architecture & FinTech Engineering</div>
+      <div class="hero-subtitle">Senior Technology Manager – Payment Architecture &amp; FinTech Engineering</div>
       <p class="hero-tagline">
-        Architect of large-scale payment hubs, real-time payment systems, and ISO 20022–native platforms for Tier-1 U.S. banks and global financial institutions.
+        Architect of large-scale payment hubs, real-time payment systems, and ISO 20022 native platforms for Tier-1 U.S. banks and global financial institutions.
         Combining enterprise product R&amp;D with applied AI and FinTech research.
       </p>
 
@@ -393,8 +417,8 @@
         <span class="pill">Original Contributions &amp; Critical Roles</span>
         <ul>
           <li>Architected FRSD specifications for Global PAYplus, used by 200+ financial institutions across 160+ countries.</li>
-          <li>Led key ISO 20022 and real-time payment modernization initiatives for Tier-1 U.S. banks.</li>
-          <li>Critical role in PNC Bank’s early RTP certification and go-live on The Clearing House Real-Time Payments Network.</li>
+          <li>Led ISO 20022 and real-time payment modernization initiatives for Tier-1 U.S. banks.</li>
+          <li>Critical role in PNC Bank becoming one of the earliest institutions certified and live on The Clearing House Real-Time Payments Network.</li>
           <li>Core architect for Nuvono, a next-generation cloud-native payment platform deployed at Truist Bank.</li>
         </ul>
       </div>
@@ -404,7 +428,7 @@
         <ul>
           <li>Author of fourteen scholarly publications spanning IEEE, Springer, and peer-reviewed journals.</li>
           <li>More than 135 Google Scholar citations, reflecting independent international recognition.</li>
-          <li>Reviewer for 75+ IEEE conference papers, ACM events, and international journals.</li>
+          <li>Reviewer for more than seventy-five IEEE conference papers, ACM events, and international journals.</li>
           <li>Keynote speaker, panel moderator, and session chair at international AI, FinTech, and intelligent-systems conferences.</li>
           <li>Full Member of Sigma Xi (Carnegie Mellon University Chapter) and IEEE Senior Member.</li>
         </ul>
@@ -419,45 +443,56 @@
       <span class="section-subtitle">Selected public work in FinTech and AI</span>
     </div>
 
-    <div class="card">
-      <h3>Digital Payments System Blueprint</h3>
-      <p class="muted">
-        An end-to-end architectural blueprint for modern digital payment systems, including multi-rail routing, ISO 20022 message flows,
-        RTP lifecycles, cross-border FX processing, and compliance integration.
-      </p>
-      <ul>
-        <li>Models Wire, ACH, RTP, FedNow, and cross-border flows.</li>
-        <li>Includes conceptual FRSD-style specifications and workflow diagrams.</li>
-        <li>Designed as a learning and reference resource for engineers, architects, and students.</li>
-      </ul>
-      <p class="muted">
-        GitHub: <a href="https://github.com/RahulAutade2288/digital-payments-system-blueprint" target="_blank">digital-payments-system-blueprint</a>
-      </p>
+    <!-- two cards side-by-side -->
+    <div class="two-column">
+      <div class="card">
+        <h3>Digital Payments System Blueprint</h3>
+        <p class="muted">
+          An end-to-end architectural blueprint for modern digital payment systems, including multi-rail routing,
+          ISO 20022 message flows, RTP lifecycles, cross-border FX processing, and compliance integration.
+        </p>
+        <ul>
+          <li>Models Wire, ACH, RTP, FedNow, and cross-border flows.</li>
+          <li>Includes conceptual FRSD-style specifications and workflow diagrams.</li>
+          <li>Designed as a learning and reference resource for engineers, architects, and students.</li>
+        </ul>
+        <p class="muted">
+          GitHub:
+          <a href="https://github.com/RahulAutade2288/digital-payments-system-blueprint" target="_blank">
+            digital-payments-system-blueprint
+          </a>
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Federated Fraud Detection Framework</h3>
+        <p class="muted">
+          Prototype implementation of federated learning based fraud detection for financial transactions, enabling
+          multiple institutions to collaboratively train models without sharing raw data.
+        </p>
+        <ul>
+          <li>Supports experimental real-time and batch anomaly detection.</li>
+          <li>Explores privacy-preserving collaboration in FinTech.</li>
+          <li>Aligned with research on federated learning and secure AI in finance.</li>
+        </ul>
+        <p class="muted">
+          GitHub:
+          <a href="https://github.com/RahulAutade2288/fraud-detection-federated" target="_blank">
+            fraud-detection-federated
+          </a>
+        </p>
+      </div>
     </div>
 
-    <div class="card">
-      <h3>Federated Fraud Detection Framework</h3>
-      <p class="muted">
-        Prototype implementation of federated learning–based fraud detection for financial transactions, enabling multiple institutions to
-        collaboratively train models without sharing raw data.
-      </p>
-      <ul>
-        <li>Supports experimental real-time and batch anomaly detection.</li>
-        <li>Explores privacy-preserving collaboration in FinTech.</li>
-        <li>Aligned with research on federated learning and secure AI in finance.</li>
-      </ul>
-      <p class="muted">
-        GitHub: <a href="https://github.com/RahulAutade2288/fraud-detection-federated" target="_blank">fraud-detection-federated</a>
-      </p>
-    </div>
-
+    <!-- full-width card -->
     <div class="card">
       <h3>Additional Repositories</h3>
       <p class="muted">
         More repositories, sample code, and research prototypes are available on my GitHub profile.
       </p>
       <p class="muted">
-        Profile: <a href="https://github.com/RahulAutade2288" target="_blank">github.com/RahulAutade2288</a>
+        Profile:
+        <a href="https://github.com/RahulAutade2288" target="_blank">github.com/RahulAutade2288</a>
       </p>
     </div>
   </section>
@@ -469,30 +504,35 @@
       <span class="section-subtitle">IEEE, Springer, and peer-reviewed journals</span>
     </div>
 
-    <div class="card">
-      <span class="pill">IEEE &amp; Springer</span>
-      <ul>
-        <li>Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis.</li>
-        <li>Quantum Computing for Fraud Detection in Real-Time Payment Systems.</li>
-        <li>AI-Enabled Blockchain Framework for Detecting Threats in Payment Systems.</li>
-        <li>Edge AI for Real-Time Transaction Authentication in IoT-Based Banking.</li>
-      </ul>
-    </div>
+    <div class="two-column">
+      <div class="card">
+        <span class="pill">IEEE &amp; Springer</span>
+        <ul>
+          <li>Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis.</li>
+          <li>Quantum Computing for Fraud Detection in Real-Time Payment Systems.</li>
+          <li>AI-Enabled Blockchain Framework for Detecting Threats in Payment Systems.</li>
+          <li>Edge AI for Real-Time Transaction Authentication in IoT-Based Banking.</li>
+        </ul>
+      </div>
 
-    <div class="card">
-      <span class="pill">Peer-Reviewed Journals</span>
-      <ul>
-        <li>AI Models for Real-Time Risk Assessment in Decentralized Finance.</li>
-        <li>Financial Security and Transparency with Blockchain Solutions.</li>
-        <li>Multi-Modal GANs for Real-Time Anomaly Detection in Financial Activity Streams.</li>
-        <li>Enhancing Blockchain Payment Security with Federated Learning.</li>
-        <li>Navigating Challenges in Real-Time Payment Systems in FinTech.</li>
-        <li>AI-Powered Predictive Maintenance in Industrial IoT.</li>
-        <li>Green FinTech and Its Influence on Sustainable Financial Practices.</li>
-      </ul>
-      <p class="muted">
-        Complete list: <a href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar Profile</a>
-      </p>
+      <div class="card">
+        <span class="pill">Peer-Reviewed Journals</span>
+        <ul>
+          <li>AI Models for Real-Time Risk Assessment in Decentralized Finance.</li>
+          <li>Financial Security and Transparency with Blockchain Solutions.</li>
+          <li>Multi-Modal GANs for Real-Time Anomaly Detection in Financial Activity Streams.</li>
+          <li>Enhancing Blockchain Payment Security with Federated Learning.</li>
+          <li>Navigating Challenges in Real-Time Payment Systems in FinTech.</li>
+          <li>AI-Powered Predictive Maintenance in Industrial IoT.</li>
+          <li>Green FinTech and Its Influence on Sustainable Financial Practices.</li>
+        </ul>
+        <p class="muted">
+          Complete list:
+          <a href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">
+            Google Scholar Profile
+          </a>
+        </p>
+      </div>
     </div>
   </section>
 
@@ -500,24 +540,26 @@
   <section id="service">
     <div class="section-header">
       <h2 class="section-title">Judging, Advisory &amp; Community Service</h2>
-      <span class="section-subtitle">Professional &amp; academic contributions</span>
+      <span class="section-subtitle">Professional and academic contributions</span>
     </div>
 
-    <div class="card">
-      <span class="pill">Peer Review &amp; Committees</span>
-      <ul>
-        <li>Reviewer for more than 75 IEEE conference papers and several ACM and journal submissions.</li>
-        <li>Technical program committee member for international conferences in AI, cybersecurity, and FinTech.</li>
-        <li>Session Chair for IIPEM 2025 (Amity University &amp; IEEE Singapore Chapter).</li>
-      </ul>
-    </div>
+    <div class="two-column">
+      <div class="card">
+        <span class="pill">Peer Review &amp; Committees</span>
+        <ul>
+          <li>Reviewer for more than seventy-five IEEE conference papers and several ACM and journal submissions.</li>
+          <li>Technical program committee member for international conferences in AI, cybersecurity, and FinTech.</li>
+          <li>Session Chair for IIPEM 2025 (Amity University and IEEE Singapore Chapter).</li>
+        </ul>
+      </div>
 
-    <div class="card">
-      <span class="pill">Judging &amp; Mentorship</span>
-      <ul>
-        <li>Judge for international innovation challenges, hackathons, and student research presentations.</li>
-        <li>Mentor for students and early-career professionals in AI, cybersecurity, and financial technology.</li>
-      </ul>
+      <div class="card">
+        <span class="pill">Judging &amp; Mentorship</span>
+        <ul>
+          <li>Judge for international innovation challenges, hackathons, and student research presentations.</li>
+          <li>Mentor for students and early-career professionals in AI, cybersecurity, and financial technology.</li>
+        </ul>
+      </div>
     </div>
 
     <div class="card">
@@ -537,13 +579,21 @@
     </div>
     <div class="card">
       <p class="muted">
-        I am open to invited talks, expert panels, collaboration on research in payments modernization, AI-driven fraud detection, FinTech architecture,
-        and digital banking transformation.
+        I am open to invited talks, expert panels, and collaboration on research in payments modernization, AI-driven fraud detection,
+        FinTech architecture, and digital-banking transformation.
       </p>
       <ul>
         <li>Email: <a href="mailto:rahul2288@gmail.com">rahul2288@gmail.com</a></li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank">linkedin.com/in/rahul-autade-61310158</a></li>
-        <li>GitHub: <a href="https://github.com/RahulAutade2288" target="_blank">github.com/RahulAutade2288</a></li>
+        <li>LinkedIn:
+          <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank">
+            linkedin.com/in/rahul-autade-61310158
+          </a>
+        </li>
+        <li>GitHub:
+          <a href="https://github.com/RahulAutade2288" target="_blank">
+            github.com/RahulAutade2288
+          </a>
+        </li>
       </ul>
     </div>
   </section>

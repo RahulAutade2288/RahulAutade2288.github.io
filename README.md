@@ -384,7 +384,7 @@
   <!-- EB1A HIGHLIGHTS -->
   <section id="eb1a">
     <div class="section-header">
-      <h2 class="section-title">EB-1A Evidence Highlights</h2>
+      <h2 class="section-title">Evidence Highlights</h2>
       <span class="section-subtitle">Summary of extraordinary ability criteria</span>
     </div>
 

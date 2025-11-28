@@ -1,219 +1,196 @@
-# Rahul Autade  
-### Senior Technology Manager, Payment Architecture and FinTech Engineering  
-
-Pittsburgh, Pennsylvania, USA  
-Email: `rahul2288@gmail.com`  
-LinkedIn: https://www.linkedin.com/in/rahul-autade-61310158/  
-GitHub: https://github.com/RahulAutade2288  
-Google Scholar: https://scholar.google.com/citations?user=JuVBGZYAAAAJ  
-
----
-
-## About Me
-
-I am a senior technology leader and payments modernization specialist with more than twenty one years of experience in:
-
-- Payment hubs and transaction banking platforms  
-- Real time payments and digital settlement  
-- ISO 20022 based architectures  
-- Cloud native FinTech systems  
-- AI driven fraud detection and intelligent financial systems  
-
-My work spans product research and development, solution and payment architecture, and enterprise implementation programs for major United States and global financial institutions.
-
-I have contributed to:
-
-- Global PAYplus (GPP), a payment hub used by more than two hundred banks in over one hundred sixty countries  
-- Real Time Payments implementation and modernization at large United States banks  
-- Enterprise payment hub projects at Bank of America and Citi  
-- Nuvono, a new edge cloud native universal banking and payment platform being deployed at Truist Bank  
-
-I also maintain an active research and community profile through IEEE and peer reviewed publications, conference participation, paper reviewing, judging, and professional memberships.
-
----
-
-## EB1A Highlights
-
-This section summarizes how my career aligns with multiple EB1A criteria.
-
-- Architect of foundational Functional Requirements and Solution Design (FRSD) specifications for Global PAYplus, a platform powering more than two hundred financial institutions in over one hundred sixty countries.  
-- Played critical roles in payment modernization at major United States banks, including Real Time Payments (RTP) implementation, ISO 20022 migration, and multi rail transformation for Fedwire, SWIFT, CHIPS, ACH, cross border FX, and digital channels.  
-- Lead architect and contributor for Nuvono, a next generation cloud native universal payment platform that supports Wire, ACH, RTP, FedNow, and cross border schemes, now being implemented at Truist Bank.  
-- Author of fourteen scholarly publications across IEEE, Springer, and peer reviewed journals, with more than one hundred thirty five citations on Google Scholar.  
-- Reviewer for more than seventy five IEEE conference papers, multiple ACM conference papers, and several peer reviewed journals.  
-- Invited keynote speaker, panel moderator, session chair, and technical program committee member at international conferences in AI, cybersecurity, FinTech, and intelligent systems.  
-- Senior Member of IEEE and Full Member of Sigma Xi (Carnegie Mellon University Chapter), along with memberships in ACM, ABA, IAENG, and IOASD.  
-
----
-
-## Payments Modernization and FinTech Impact
-
-Over my career I have focused on modernizing large scale payment ecosystems and transaction banking platforms.
-
-### Global PAYplus (GPP)
-
-- Contributed to core FRSD documents that define posting, settlement, routing, exception handling, rules engine behavior, and ISO 20022 message interpretation for Global PAYplus.  
-- These FRSDs were used by product engineering teams to build and evolve GPP into one of the most widely adopted payment hubs in the world.  
-- GPP is used by more than two hundred banks in over one hundred sixty countries and supports high value, low value, domestic, and cross border payment flows.  
-
-### Bank of America, Enterprise Payment Hub
-
-- Helped design the architecture and solution patterns for Bank of America’s Global PAYplus Services Platform, which consolidated multiple legacy payment engines into one enterprise payment services hub.  
-- Contributed to workflows for enrichment, validation, routing, posting, settlement, exception processing, and compliance integration.  
-- Supported the move to a standardized, scalable, and future ready payment infrastructure.  
-
-### PNC Bank, Real Time Payments and Multi Rail Modernization
-
-- Played a key role in PNC’s transformation program to move from legacy batch systems to a unified Global PAYplus based platform.  
-- Designed and supported Real Time Payments (RTP) implementation, helping PNC become one of the earliest large banks in the United States to certify and go live on The Clearing House RTP network.  
-- Contributed to modernization of Fedwire, SWIFT, CHIPS, ILV, and cross border FX workflows and to the decommissioning of the legacy MTS wire system.  
-
-### Nuvono and Truist Bank
-
-- At 3iTek, serve as one of the core architects for Nuvono, a modern cloud native payment and banking platform that is ISO 20022 native and event driven.  
-- Designed microservices, posting and settlement logic, routing and enrichment flows, Kafka based orchestration, tokenization, and identity components.  
-- Help lead Nuvono implementation at Truist Bank, including Zelle modernization, secure EWS integration, and readiness for RTP and FedNow.  
-
-These efforts support billions of dollars in daily transactions and contribute directly to the modernization, resilience, and intelligence of global and United States financial infrastructure.
-
----
-
-## Open Source and Technical Projects
-
-I use GitHub to share reference architectures, prototype models, and learning resources in payments and AI.
-
-### Digital Payments System Blueprint
-
-A reference architecture for modern payment platforms that covers:
-
-- Multi rail routing for rails such as Fedwire, SWIFT, ACH, RTP, and FedNow  
-- End to end payment lifecycle diagrams  
-- ISO 20022 message structures and mapping patterns  
-- Compliance and fraud integration points  
-
-Repository:  
-https://github.com/RahulAutade2288/digital-payments-system-blueprint  
-
-### Federated Fraud Detection Framework
-
-A prototype that explores federated learning for collaborative fraud detection across institutions without sharing raw data.
-
-- Illustrates model training and evaluation across distributed nodes  
-- Aligns with my research on AI, fraud prevention, and secure financial systems  
-
-Repository:  
-https://github.com/RahulAutade2288/fraud-detection-federated  
-
-Additional repositories are available on my GitHub profile:  
-https://github.com/RahulAutade2288  
-
----
-
-## Research Publications
-
-I have authored and co authored multiple research papers in IEEE, Springer, and peer reviewed venues, with focus on AI driven fraud detection, blockchain security, decentralized finance, intelligent risk management, and IoT based financial systems.
-
-### IEEE Publications
-
-- Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis  
-- Quantum Computing for Fraud Detection in Real Time Payment Systems  
-- Integrating IoT And AI For End To End Agricultural Intelligence Systems  
-- AI and Cybersecurity Converge: Unmasking Deepfakes with Multi Modal Intelligence  
-- AI Powered Internet of Things for Next Generation Innovations  
-
-### Springer Publications
-
-- AI Enabled Blockchain Framework for Detecting Threats in Payment Systems  
-- Edge AI For Real Time Transaction Authentication In IoT Based Banking  
-
-### Peer Reviewed Journals
-
-- AI Models for Real Time Risk Assessment in Decentralized Finance  
-- Financial Security And Transparency With Blockchain Solutions  
-- Multi Modal GANs for Real Time Anomaly Detection in Machine and Financial Activity Streams  
-- Enhancing Blockchain Payment Security with Federated Learning  
-- Navigating Challenges in Real Time Payment Systems in FinTech  
-- AI Powered Predictive Maintenance in Industrial IoT  
-- Green FinTech And Its Influence On Sustainable Financial Practices  
-
-My full publication list and citation metrics are available on Google Scholar:  
-https://scholar.google.com/citations?user=JuVBGZYAAAAJ  
-
----
-
-## Talks, Keynotes, and Conference Roles
-
-I regularly share my work with global communities through invited talks and conference participation.
-
-- Keynote and invited talks at international conferences on AI, FinTech, cybersecurity, and digital banking.  
-- Keynote roles and speaking engagements at events including IEEE and multidisciplinary conferences in technology and management.  
-- Session Chair for IIPEM 2025, organized by Amity University and IEEE Singapore Chapter.  
-
-These roles show recognition of my expertise by academic and professional communities.
-
----
-
-## Reviewing and Technical Program Committees
-
-I have extensive experience evaluating the work of others in my field.
-
-- Reviewer for more than seventy five IEEE conference papers across AI, cybersecurity, intelligent systems, and FinTech.  
-- Reviewer for ACM conferences and several peer reviewed journals.  
-- Member of multiple technical program committees for international conferences.  
-
-This service supports EB1A criteria related to judging the work of others and participation on panels and committees.
-
----
-
-## Judging and Mentoring
-
-I regularly serve as a judge and mentor for innovation and research events.
-
-- Judge for student research showcases, hackathons, and STEM competitions.  
-- Involved with university and pre university events focused on AI, engineering, and innovation.  
-- Provide guidance to students and early career professionals in AI, cybersecurity, and financial technology.  
-
-These activities show my contribution to developing the next generation of talent in my field.
-
----
-
-## Professional Memberships
-
-I am an active member of several professional and scientific organizations.
-
-- Full Member, Sigma Xi, Carnegie Mellon University Chapter  
-- Senior Member, IEEE  
-- Member, Association for Computing Machinery (ACM)  
-- Member, American Bankers Association (ABA)  
-- Member, International Association of Engineers (IAENG)  
-- Royal Fellow, International Organization for Academic and Scientific Development (IOASD)  
-
-These memberships reflect professional standing, research engagement, and recognition in scientific and engineering communities.
-
----
-
-## Work Experience (High Level)
-
-This is a brief overview of my professional background. More detail is available in my CV.
-
-- Senior Technology Manager and Payment Architect working through 3iTek LLC, focusing on Nuvono platform design and Truist Bank implementation.  
-- Lead architect and implementation specialist for payment modernization programs at PNC Bank, including RTP and multi rail transformation.  
-- Product and implementation specialist at Finastra, contributing to Global PAYplus R&D and implementations at Bank of America, Citi, and other global clients.  
-- Early career roles in payment clearing and settlement implementations in Japan and Indonesia.  
-
----
-
-## Contact
-
-I am open to invited talks, collaborations, and advisory or consulting discussions in the areas of:
-
-- Payments modernization and real time payments  
-- ISO 20022 and cross border payment architecture  
-- Cloud native financial systems and FinTech platforms  
-- AI driven fraud detection and intelligent financial systems  
-
-You can reach me at:
-
-- Email: `rahul2288@gmail.com`  
-- LinkedIn: https://www.linkedin.com/in/rahul-autade-61310158/  
-- GitHub: https://github.com/RahulAutade2288  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul Autade – Payments Modernization & FinTech Architecture</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: #f7f7f7;
+            color: #333;
+        }
+        header {
+            background: #003366;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 { margin-bottom: 10px; font-size: 32px; }
+        header h3 { font-weight: normal; margin-top: 0; font-size: 20px; }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #003366;
+            border-left: 5px solid #003366;
+            padding-left: 10px;
+            margin-top: 40px;
+        }
+
+        a { color: #003366; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        ul { margin-left: 20px; }
+        footer {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Rahul Autade</h1>
+    <h3>Senior Technology Manager – Payment Architecture & FinTech Engineering</h3>
+    <p>Pittsburgh, Pennsylvania, USA</p>
+    <p>
+        <a href="mailto:rahul2288@gmail.com" style="color:white;">rahul2288@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/rahul-autade-61310158/" style="color:white;">LinkedIn</a> |
+        <a href="https://github.com/RahulAutade2288" style="color:white;">GitHub</a> |
+        <a href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" style="color:white;">Google Scholar</a>
+    </p>
+</header>
+
+<div class="container">
+
+<!-- ABOUT -->
+<h2>About Me</h2>
+<p>
+I am a senior technology leader and payments modernization specialist with more than twenty-one years of experience in payment hubs, real-time payments, digital settlement systems, cloud-native FinTech platforms, and ISO 20022–based architectures.
+My work spans product R&D, solution architecture, and end-to-end implementation for major U.S. and global financial institutions.
+</p>
+
+<p>I have contributed to:</p>
+<ul>
+    <li><strong>Global PAYplus (GPP)</strong> – used by 200+ banks in 160+ countries</li>
+    <li><strong>Real Time Payments (RTP) modernization</strong> at major U.S. banks</li>
+    <li><strong>Bank of America</strong> enterprise payment hub transformation</li>
+    <li><strong>Citi</strong> global payment workflow standardization</li>
+    <li><strong>Nuvono</strong> – next-gen cloud-native platform deployed at Truist Bank</li>
+</ul>
+
+<p>
+I also maintain a strong academic and research profile through IEEE and peer-reviewed publications, technical reviews, judging, and professional memberships.
+</p>
+
+<!-- EB1A HIGHLIGHTS -->
+<h2>EB-1A Highlights</h2>
+<ul>
+    <li>Architect of foundational FRSD specifications powering Global PAYplus for 200+ institutions</li>
+    <li>Leader in Real Time Payments implementation, ISO 20022 migration, and multi-rail modernization</li>
+    <li>One of few U.S. architects with dual expertise in product R&D and Tier-1 bank implementation</li>
+    <li>Core architect of the Nuvono platform (Truist Bank modernization)</li>
+    <li>Author of 14 scholarly publications (IEEE, Springer, peer-reviewed journals)</li>
+    <li>More than 135 Google Scholar citations</li>
+    <li>Reviewer for 75+ IEEE papers, ACM papers, and journals</li>
+    <li>Keynote speaker, moderator, and session chair for global conferences</li>
+    <li>Senior Member of IEEE; Full Member of Sigma Xi (CMU Chapter)</li>
+</ul>
+
+<!-- PAYMENTS MODERNIZATION -->
+<h2>Payments Modernization & FinTech Impact</h2>
+
+<h3>Global PAYplus (GPP)</h3>
+<ul>
+    <li>Authored FRSD specifications used to build posting, settlement, routing, rules engine, and ISO 20022 logic</li>
+    <li>GPP supports hundreds of large financial institutions worldwide</li>
+    <li>Critical contributor to GPP’s evolution into a global payment hub</li>
+</ul>
+
+<h3>Bank of America – Enterprise Payment Hub</h3>
+<ul>
+    <li>Designed workflows for validation, routing, posting, settlement, exceptions, and compliance</li>
+    <li>Helped consolidate numerous legacy payment engines into one enterprise hub</li>
+</ul>
+
+<h3>PNC Bank – RTP & Multi-Rail Modernization</h3>
+<ul>
+    <li>Key role in PNC becoming one of the first large U.S. banks certified on RTP</li>
+    <li>Supported Fedwire, SWIFT, CHIPS, ILV, and Cross-Border FX modernization</li>
+    <li>Helped decommission the legacy MTS wire system</li>
+</ul>
+
+<h3>Nuvono & Truist Bank</h3>
+<ul>
+    <li>Designed microservices, posting/settlement, workflow orchestration, and ISO 20022 data models</li>
+    <li>Leading implementation for Zelle, RTP, FedNow, and EWS integration at Truist Bank</li>
+</ul>
+
+<!-- OPEN SOURCE -->
+<h2>Open Source & Technical Projects</h2>
+
+<h3>Digital Payments System Blueprint</h3>
+<p><a href="https://github.com/RahulAutade2288/digital-payments-system-blueprint">GitHub Repository</a></p>
+<ul>
+    <li>Multi-rail routing models</li>
+    <li>ISO 20022 mappings & compliance integration</li>
+    <li>End-to-end payment lifecycle diagrams</li>
+</ul>
+
+<h3>Federated Fraud Detection Framework</h3>
+<p><a href="https://github.com/RahulAutade2288/fraud-detection-federated">GitHub Repository</a></p>
+<ul>
+    <li>Prototype of federated learning for fraud detection</li>
+    <li>Supports privacy-preserving multi-institution modeling</li>
+</ul>
+
+<!-- RESEARCH -->
+<h2>Research Publications</h2>
+
+<h3>IEEE</h3>
+<ul>
+    <li>Computer Vision for Financial Fraud Prevention</li>
+    <li>Quantum Computing for Fraud Detection</li>
+    <li>Integrating IoT & AI for Agricultural Intelligence</li>
+    <li>AI-Cybersecurity Convergence (Under Publishing)</li>
+    <li>AI-Powered IoT Innovations (Under Publishing)</li>
+</ul>
+
+<h3>Springer</h3>
+<ul>
+    <li>AI-Enabled Blockchain Threat Detection</li>
+    <li>Edge AI for Real-Time Authentication</li>
+</ul>
+
+<h3>Peer-Reviewed Journals</h3>
+<ul>
+    <li>Real-Time Risk Assessment in DeFi</li>
+    <li>Blockchain Security & Transparency</li>
+    <li>Real-Time Anomaly Detection (Multi-Modal GANs)</li>
+    <li>Federated Learning for Payment Security</li>
+    <li>Challenges in Real-Time Payment Systems</li>
+    <li>Predictive Maintenance in Industrial IoT</li>
+    <li>Green FinTech Innovations</li>
+</ul>
+
+<p>
+Full list and citations:  
+<a href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ">Google Scholar Profile</a>
+</p>
+
+<!-- CONFERENCES -->
+<h2>Talks, Keynotes & Conference Roles</h2>
+<ul>
+    <li>Keynote speaker at international AI, cybersecurity, and FinTech conferences</li>
+    <li>Session Chair – IIPEM 2025 (Amity University & IEEE Singapore Chapter)</li>
+    <li>Panel moderator and invited expert for global events</li>
+</ul>
+
+<!-- REVIEWER -->
+<h2>Reviewing & Technical Program Committees</h2>
+<ul>
+    <li>Reviewer for 75+ IEEE papers</li>
+    <li>Reviewer for ACM conferences</li>

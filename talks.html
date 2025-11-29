@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Rahul Autade | Talks, Keynotes & Session Roles</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Keynote talks, invited lectures, session chair roles, and judging activities by Rahul Autade in payments modernization, AI, and FinTech." />
+
+  <style>
+    :root {
+      --bg: #f5f7fb;
+      --bg-alt: #ffffff;
+      --primary: #004c97;
+      --primary-soft: #e2ecf8;
+      --accent: #009688;
+      --text: #1f2933;
+      --muted: #5a6b7c;
+      --border: #dde3ec;
+      --shadow-soft: 0 8px 20px rgba(15, 35, 52, 0.06);
+      --radius-lg: 16px;
+      --radius-md: 12px;
+      --radius-pill: 999px;
+      --max-width: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, #e6f0ff, #f5f7fb 40%, #ffffff);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    header {
+      border-bottom: 1px solid rgba(255,255,255,0.4);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      background: rgba(245,247,251,0.85);
+    }
+
+    .nav {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0.8rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-title {
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      color: var(--primary);
+    }
+
+    .nav-links a {
+      margin-left: 1.2rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-weight: 500;
+      padding: 0.25rem 0;
+    }
+
+    .nav-links a:hover {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    .nav-links a.active {
+      color: var(--primary);
+      font-weight: 600;
+    }
+
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 2rem 1.5rem 3rem;
+    }
+
+    /* HERO / INTRO */
+    .hero {
+      padding: 2rem;
+      margin: 1.5rem 0 2.5rem;
+      background: linear-gradient(135deg, #ffffff, #edf3ff);
+      border-radius: 24px;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid #e1e8f5;
+    }
+
+    .hero-kicker {
+      font-size: 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .hero-title {
+      font-size: 1.7rem;
+      font-weight: 750;
+      margin-bottom: 0.4rem;
+      color: #132743;
+    }
+
+    .hero-subtitle {
+      font-size: 0.98rem;
+      color: var(--muted);
+      margin-bottom: 0.8rem;
+      max-width: 640px;
+    }
+
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 0.6rem;
+    }
+
+    .tag {
+      font-size: 0.8rem;
+      padding: 0.25rem 0.7rem;
+      border-radius: var(--radius-pill);
+      background: var(--primary-soft);
+      color: var(--primary);
+      font-weight: 500;
+    }
+
+    /* SECTIONS */
+    section {
+      margin-bottom: 2.4rem;
+    }
+
+    section + section {
+      border-top: 1px solid rgba(221, 227, 236, 0.6);
+      padding-top: 1.8rem;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 0.8rem;
+    }
+
+    .section-title {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: #132743;
+    }
+
+    .section-subtitle {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    .card {
+      background: var(--bg-alt);
+      border-radius: var(--radius-lg);
+      padding: 1.2rem 1.3rem;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-soft);
+      margin-bottom: 1rem;
+    }
+
+    .pill {
+      display: inline-block;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      padding: 0.12rem 0.5rem;
+      border-radius: var(--radius-pill);
+      background: #f0f4ff;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .muted {
+      color: var(--muted);
+      font-size: 0.86rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin-top: 0.4rem;
+    }
+
+    thead {
+      background: #f2f5ff;
+    }
+
+    th, td {
+      padding: 0.55rem 0.5rem;
+      text-align: left;
+      vertical-align: top;
+      border-bottom: 1px solid #e2e6f0;
+    }
+
+    th {
+      font-weight: 600;
+      color: #1a2740;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .topic {
+      font-weight: 500;
+      color: #15233a;
+    }
+
+    footer {
+      padding-top: 1.5rem;
+      border-top: 1px solid #e0e5f2;
+      margin-top: 1.5rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+    }
+
+    @media (max-width: 800px) {
+      .nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.3rem;
+      }
+      .nav-links {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem 1rem;
+      }
+      table, thead, tbody, th, td, tr {
+        display: block;
+      }
+      thead {
+        display: none;
+      }
+      tbody tr {
+        margin-bottom: 0.9rem;
+        border-radius: 12px;
+        border: 1px solid #e2e6f0;
+        padding: 0.6rem 0.7rem;
+        background: #ffffff;
+      }
+      tbody td {
+        border-bottom: none;
+        padding: 0.15rem 0;
+      }
+      tbody td::before {
+        content: attr(data-label);
+        display: block;
+        font-size: 0.72rem;
+        text-transform: uppercase;
+        letter-spacing: 0.06em;
+        color: var(--muted);
+        margin-bottom: 0.05rem;
+      }
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="nav">
+    <div class="nav-title">RAHUL AUTADE</div>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html#summary">Home</a>
+      <a href="talks.html" class="active">Talks</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#service">Service</a>
+      <a href="index.html#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- INTRO -->
+  <section class="hero">
+    <div class="hero-kicker">Talks · Keynotes · Session Chair Roles</div>
+    <h1 class="hero-title">Talks &amp; Conference Contributions</h1>
+    <p class="hero-subtitle">
+      Selected keynote addresses, invited talks, and session chair roles across IEEE and international conferences
+      in payments modernization, AI, and FinTech. This page complements the EB-1A evidence highlights by showing
+      concrete speaking and leadership activities.
+    </p>
+    <div class="hero-tags">
+      <span class="tag">Keynote Speaker</span>
+      <span class="tag">Session Chair</span>
+      <span class="tag">AI &amp; FinTech</span>
+      <span class="tag">Payments Modernization</span>
+      <span class="tag">Industry–Academia Bridge</span>
+    </div>
+  </section>
+
+  <!-- KEYNOTE & INVITED TALKS -->
+  <section id="keynotes">
+    <div class="section-header">
+      <h2 class="section-title">Keynote &amp; Invited Talks</h2>
+      <span class="section-subtitle">Selected recent engagements</span>
+    </div>
+
+    <div class="card">
+      <span class="pill">Keynote Addresses</span>
+      <table>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Event</th>
+            <th>Role / Topic</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Update years / details as needed -->
+          <tr>
+            <td data-label="Year">2025</td>
+            <td data-label="Event">
+              4th IEEE World Conference on Applied Intelligence and Computing (AIC 2025)
+            </td>
+            <td data-label="Role / Topic">
+              <div class="topic">Keynote Speaker</div>
+              <div class="muted">Advanced Computing &amp; Emerging Technologies in AI-Driven FinTech</div>
+            </td>
+            <td data-label="Notes" class="muted">
+              Focused on AI-based fraud detection, computer vision, and quantum-inspired methods for real-time payments.
+            </td>
+          </tr>
+
+          <tr>
+            <td data-label="Year">2025</td>
+            <td data-label="Event">
+              IICE-2025 – Business Education Track
+            </td>
+            <td data-label="Role / Topic">
+              <div class="topic">Invited Talk</div>
+              <div class="muted">Industry-Ready FinTech Skills and AI-Driven Business Education</div>
+            </td>
+            <td data-label="Notes" class="muted">
+              Spoke to educators and students on aligning curricula with real-world banking and AI use cases.
+            </td>
+          </tr>
+
+          <tr>
+            <td data-label="Year">—</td>
+            <td data-label="Event">
+              International Conference on Artificial Intelligence &amp; Data Processing (ICAIDLP)
+            </td>
+            <td data-label="Role / Topic">
+              <div class="topic">Keynote Speaker</div>
+              <div class="muted">AI-Enabled Fraud Detection and Secure Payment Architectures</div>
+            </td>
+            <td data-label="Notes" class="muted">
+              Hosted by NerdPublication. <a href="https://www.nerdpublication.com/icaidlp/" target="_blank">Conference link</a>.
+            </td>
+          </tr>
+
+          <tr>
+            <td data-label="Year">—</td>
+            <td data-label="Event">
+              International Conference on Education, Teaching, Learning &amp; Communication (ETLTC)
+            </td>
+            <td data-label="Role / Topic">
+              <div class="topic">Keynote Speaker</div>
+              <div class="muted">Bridging AI, FinTech, and Higher Education</div>
+            </td>
+            <td data-label="Notes" class="muted">
+              Focused on how universities can prepare students for AI-driven financial systems. 
+              <a href="https://www.interconf-etltc.net/keynotes" target="_blank">Keynotes page</a>.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="muted" style="margin-top:0.6rem;">
+        This is a curated list; additional invited talks and webinars are available upon request or in the full CV.
+      </p>
+    </div>
+  </section>
+
+  <!-- SESSION CHAIR & PANEL ROLES -->
+  <section id="sessions">
+    <div class="section-header">
+      <h2 class="section-title">Session Chair &amp; Panel Roles</h2>
+      <span class="section-subtitle">Leadership in technical sessions</span>
+    </div>
+
+    <div class="card">
+      <span class="pill">Session Chair / Moderator</span>
+      <table>
+        <thead>
+          <tr>
+            <th>Year</th>
+            <th>Event</th>
+            <th>Track / Role</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td data-label="Year">2025</td>
+            <td data-label="Event">
+              2nd International Conference on Intelligent and Innovative Practices in Engineering &amp; Management (IIPEM – 2025)
+            </td>
+            <td data-label="Track / Role">
+              <div class="topic">Session Chair</div>
+              <div class="muted">Intelligent &amp; Innovative Practices in Engineering &amp; Management</div>
+            </td>
+            <td data-label="Notes" class="muted">
+              Organized by Amity University &amp; IEEE Singapore Chapters; chaired a technical session on AI and digital transformation.
+            </td>
+          </tr>
+
+          <!-- Add more rows as you get new chair / panel roles -->
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- JUDGING & REVIEW ACTIVITIES -->
+  <section id="judging">
+    <div class="section-header">
+      <h2 class="section-title">Judging &amp; Review Activities</h2>
+      <span class="section-subtitle">Independent evaluation &amp; community service</span>
+    </div>
+
+    <div class="card">
+      <span class="pill">Peer Review</span>
+      <p class="muted">
+        Rahul regularly reviews research papers and acts on technical program committees for conferences at the intersection of AI,
+        cybersecurity, and financial technology.
+      </p>
+      <ul>
+        <li class="muted">Reviewer for 75+ IEEE conference papers and several ACM and international journal submissions.</li>
+        <li class="muted">Technical Program Committee member for multiple AI, intelligent systems, and FinTech–focused events.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <span class="pill">Judging &amp; Mentorship</span>
+      <p class="muted">
+        In addition to formal conference roles, Rahul serves as a judge and mentor for innovation challenges and student research.
+      </p>
+      <ul>
+        <li class="muted">Judge and mentor for international innovation challenges, hackathons, and student research showcases.</li>
+        <li class="muted">Advises students on AI, payments, and FinTech projects, emphasizing industry readiness and research rigor.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- CV + CONTACT -->
+  <section id="cv-contact">
+    <div class="section-header">
+      <h2 class="section-title">CV &amp; Contact</h2>
+      <span class="section-subtitle">For speaking invitations and collaborations</span>
+    </div>
+    <div class="card">
+      <p class="muted">
+        A full list of talks, session chair roles, judging activities, and publications is available in my detailed curriculum vitae.
+        For invitations to speak, chair a session, or evaluate research and innovation projects, please feel free to reach out.
+      </p>
+      <ul>
+        <li class="muted">
+          CV: <a href="Rahul_Autade_EB1A_CV.pdf" target="_blank">Download CV (PDF)</a>
+        </li>
+        <li class="muted">
+          Email: <a href="mailto:rahul2288@gmail.com">rahul2288@gmail.com</a>
+        </li>
+        <li class="muted">
+          LinkedIn: <a href="https://www.linkedin.com/in/rahul-autade-61310158/" target="_blank">linkedin.com/in/rahul-autade-61310158</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="year"></span> Rahul Autade · Talks &amp; Conference Contributions
+  </footer>
+</main>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>

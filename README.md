@@ -364,7 +364,7 @@
     <div class="hero-metrics">
       <div class="metric-row">
         <span class="metric-label">Industry Experience</span>
-        <span class="metric-value">21+ years</span>
+        <span class="metric-value">22+ years</span>
       </div>
       <div class="metric-row">
         <span class="metric-label">Global Banks Impacted</span>
@@ -384,6 +384,17 @@
       </div>
     </div>
   </section>
+
+<section id="eb1a-quick">
+  <div class="card">
+    <p class="muted"><strong>For EB-1A Reviewers & Attorneys:</strong></p>
+    <ul>
+      <li class="muted"><a href="#eb1a">Evidence Highlights</a> – mapped to USCIS criteria.</li>
+      <li class="muted"><a href="talks.html">Talks & Session Roles</a> – keynotes, chairs, judging.</li>
+      <li class="muted"><a href="#publications">Publications</a> – IEEE, Springer, peer-reviewed work.</li>
+    </ul>
+  </div>
+</section>
 
   <!-- EXECUTIVE SUMMARY -->
   <section id="summary">

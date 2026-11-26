@@ -49,6 +49,9 @@
     .nav-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1.3rem; }
     .nav-links a { color: #d1d5db; font-size: 0.88rem; font-weight: 500; }
     .nav-links a:hover { color: var(--emerald-bright); text-decoration: none; }
+    .nav-links a.active { color: var(--emerald-bright); font-weight: 600; }
+    .nav-title a { color: inherit; }
+    .nav-title a:hover { text-decoration: none; }
 
     /* HERO */
     .hero-band {
@@ -184,12 +187,13 @@
 <body>
 <header>
   <div class="nav">
-    <div class="nav-title">RAHUL <span>AUTADE</span></div>
+    <div class="nav-title"><a href="index.html">RAHUL <span>AUTADE</span></a></div>
     <nav class="nav-links" aria-label="Main navigation">
-      <a href="index.html">Home</a>
+      <a href="index.html#about">About</a>
       <a href="index.html#experience">Experience</a>
+      <a href="index.html#highlights">Highlights</a>
       <a href="talks.html">Talks</a>
-      <a href="projects.html" style="color:#10b981">Projects</a>
+      <a href="projects.html" class="active" aria-current="page">Projects</a>
       <a href="index.html#publications">Publications</a>
       <a href="index.html#contact">Contact</a>
     </nav>

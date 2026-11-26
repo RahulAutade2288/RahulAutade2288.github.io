@@ -2,597 +2,368 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Rahul Autade | Payment Architecture & FinTech Engineering</title>
+  <title>Rahul Autade | Payments Modernization &amp; Implementation Leader</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Portfolio of Rahul Autade – Senior Technology Manager specializing in payments modernization, FinTech engineering, ISO 20022, and real-time payment architectures." />
+  <meta name="description" content="Rahul Autade: payments modernization and implementation leader with 20+ years delivering payment platforms into tier-1 banks across Fedwire, CHIPS, SWIFT, ISO 20022, RTP, Zelle and FedNow." />
 
   <style>
     :root {
-      --bg: #f5f7fb;
-      --bg-alt: #ffffff;
-      --primary: #004c97;
-      --primary-soft: #e2ecf8;
-      --accent: #009688;
-      --text: #1f2933;
-      --muted: #5a6b7c;
-      --border: #dde3ec;
-      --shadow-soft: 0 8px 20px rgba(15, 35, 52, 0.06);
-      --radius-lg: 16px;
-      --radius-md: 12px;
-      --radius-pill: 999px;
-      --max-width: 1100px;
+      --graphite: #1f2937;
+      --graphite-deep: #111827;
+      --graphite-soft: #374151;
+      --emerald: #047857;
+      --emerald-bright: #10b981;
+      --emerald-soft: #ecfdf5;
+      --bg: #f6f7f6;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #4b5563;
+      --border: #e5e7eb;
+      --radius: 14px;
+      --max: 1080px;
     }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
     body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background: radial-gradient(circle at top left, #e6f0ff, #f5f7fb 40%, #ffffff);
+      font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
       color: var(--text);
       line-height: 1.6;
     }
+    a { color: var(--emerald); text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
-    a {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
+    /* NAV */
     header {
-      border-bottom: 1px solid rgba(255,255,255,0.4);
-      backdrop-filter: blur(10px);
-      position: sticky;
-      top: 0;
-      z-index: 50;
-      background: rgba(245,247,251,0.85);
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(17, 24, 39, 0.96);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
     }
-
     .nav {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 0.8rem 1.5rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      max-width: var(--max); margin: 0 auto; padding: 0.85rem 1.5rem;
+      display: flex; align-items: center; justify-content: space-between; gap: 1rem;
     }
-
-    .nav-title {
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      font-size: 0.95rem;
-      text-transform: uppercase;
-      color: var(--primary);
-    }
-
-    .nav-links a {
-      margin-left: 1.2rem;
-      font-size: 0.9rem;
-      color: var(--muted);
-      font-weight: 500;
-      padding: 0.25rem 0;
-    }
-
-    .nav-links a:hover {
-      color: var(--primary);
-      text-decoration: none;
-    }
-
-    main {
-      max-width: var(--max-width);
-      margin: 0 auto;
-      padding: 2rem 1.5rem 3rem;
-    }
+    .nav-title { color: #fff; font-weight: 700; letter-spacing: 0.08em; font-size: 0.92rem; }
+    .nav-title span { color: var(--emerald-bright); }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 0.3rem 1.3rem; }
+    .nav-links a { color: #d1d5db; font-size: 0.88rem; font-weight: 500; }
+    .nav-links a:hover { color: var(--emerald-bright); text-decoration: none; }
 
     /* HERO */
+    .hero-band {
+      background:
+        radial-gradient(900px 420px at 85% -10%, rgba(16,185,129,0.18), transparent 60%),
+        linear-gradient(160deg, var(--graphite-deep), var(--graphite) 70%);
+      color: #f9fafb;
+    }
     .hero {
-      display: grid;
-      grid-template-columns: minmax(0, 2.4fr) minmax(0, 1.6fr);
-      gap: 2rem;
-      align-items: center;
-      padding: 2rem;
-      margin: 1.5rem 0 2.5rem;
-      background: linear-gradient(135deg, #ffffff, #edf3ff);
-      border-radius: 24px;
-      box-shadow: var(--shadow-soft);
-      border: 1px solid #e1e8f5;
+      max-width: var(--max); margin: 0 auto; padding: 3.2rem 1.5rem 3rem;
+      display: grid; grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+      gap: 2.5rem; align-items: center;
     }
-
-    .hero-kicker {
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--muted);
-      margin-bottom: 0.4rem;
+    .kicker {
+      font-size: 0.74rem; letter-spacing: 0.14em; text-transform: uppercase;
+      color: var(--emerald-bright); font-weight: 600; margin-bottom: 0.6rem;
     }
-
-    .hero-title {
-      font-size: 2rem;
-      font-weight: 750;
-      margin-bottom: 0.4rem;
-      color: #132743;
+    .hero h1 { font-size: 2.5rem; line-height: 1.15; font-weight: 750; margin-bottom: 0.5rem; }
+    .hero-sub { font-size: 1.08rem; color: #e5e7eb; font-weight: 600; margin-bottom: 1rem; }
+    .hero-text { color: #cbd5e1; font-size: 0.98rem; max-width: 40rem; margin-bottom: 1.3rem; }
+    .rails { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 1.6rem; }
+    .rail {
+      font-size: 0.78rem; padding: 0.22rem 0.7rem; border-radius: 999px;
+      border: 1px solid rgba(16,185,129,0.45); color: #a7f3d0; background: rgba(16,185,129,0.08);
     }
-
-    .hero-subtitle {
-      font-size: 1rem;
-      font-weight: 600;
-      color: var(--primary);
-      margin-bottom: 0.8rem;
-    }
-
-    .hero-tagline {
-      font-size: 0.95rem;
-      color: var(--muted);
-      margin-bottom: 1.2rem;
-    }
-
-    .hero-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem;
-      margin-bottom: 1.4rem;
-    }
-
-    .tag {
-      font-size: 0.8rem;
-      padding: 0.25rem 0.7rem;
-      border-radius: var(--radius-pill);
-      background: var(--primary-soft);
-      color: var(--primary);
-      font-weight: 500;
-    }
-
-    .hero-links {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.7rem;
-      align-items: center;
-    }
-
+    .btns { display: flex; flex-wrap: wrap; gap: 0.7rem; }
     .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0.5rem 1.1rem;
-      border-radius: var(--radius-pill);
-      font-size: 0.88rem;
-      font-weight: 600;
-      border: 1px solid transparent;
-      cursor: pointer;
-      background: var(--primary);
-      color: #ffffff;
-      box-shadow: 0 6px 16px rgba(0, 76, 151, 0.25);
-      transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+      display: inline-flex; align-items: center; padding: 0.55rem 1.2rem; border-radius: 999px;
+      font-size: 0.88rem; font-weight: 600; background: var(--emerald); color: #fff;
+      border: 1px solid var(--emerald); transition: background .15s, transform .15s;
+    }
+    .btn:hover { background: #065f46; text-decoration: none; transform: translateY(-1px); }
+    .btn-ghost { background: transparent; color: #e5e7eb; border-color: rgba(255,255,255,0.28); }
+    .btn-ghost:hover { background: rgba(255,255,255,0.08); }
+    .hero-photo-wrap { text-align: center; }
+    .hero-photo {
+      width: 100%; max-width: 250px; border-radius: 20px;
+      border: 3px solid rgba(16,185,129,0.55); box-shadow: 0 18px 40px rgba(0,0,0,0.35);
     }
 
-    .btn:hover {
-      transform: translateY(-1px);
-      box-shadow: 0 10px 24px rgba(0, 76, 151, 0.28);
-      text-decoration: none;
+    /* PROOF STRIP */
+    .proof {
+      max-width: var(--max); margin: -1.6rem auto 0; padding: 0 1.5rem; position: relative;
     }
-
-    .btn-outline {
-      background: #ffffff;
-      border-color: var(--border);
-      color: var(--primary);
-      box-shadow: none;
+    .proof-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 1px;
+      background: var(--border); border: 1px solid var(--border); border-radius: var(--radius);
+      overflow: hidden; box-shadow: 0 10px 28px rgba(17,24,39,0.08);
     }
+    .proof-item { background: var(--card); padding: 1.1rem 1.2rem; }
+    .proof-num { font-size: 1.55rem; font-weight: 750; color: var(--emerald); line-height: 1.2; }
+    .proof-label { font-size: 0.82rem; color: var(--muted); margin-top: 0.2rem; }
 
-    .btn-outline:hover {
-      background: var(--primary-soft);
+    /* LAYOUT */
+    main { max-width: var(--max); margin: 0 auto; padding: 2.6rem 1.5rem 3rem; }
+    section { margin-bottom: 2.6rem; scroll-margin-top: 80px; }
+    .sec-head { display: flex; align-items: baseline; gap: 0.8rem; margin-bottom: 1rem; }
+    .sec-head h2 { font-size: 1.25rem; font-weight: 700; color: var(--graphite-deep); }
+    .sec-head h2::before {
+      content: ""; display: inline-block; width: 4px; height: 1.05em; background: var(--emerald);
+      border-radius: 2px; margin-right: 0.6rem; vertical-align: -0.12em;
     }
-
-    .hero-metrics {
-      padding: 1.4rem 1.2rem;
-      border-radius: 18px;
-      border: 1px dashed #d3ddf0;
-      background: #f7f8fc;
-      font-size: 0.85rem;
-    }
-
-    .metric-row {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 0.5rem;
-    }
-
-    .metric-label {
-      color: var(--muted);
-    }
-
-    .metric-value {
-      font-weight: 650;
-      color: #102542;
-    }
-
-    /* SECTION */
-    section {
-      margin-bottom: 2.2rem;
-    }
-
-    section + section {
-      border-top: 1px solid rgba(221, 227, 236, 0.6);
-      padding-top: 1.8rem;
-    }
-
-    .section-header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
-      margin-bottom: 0.8rem;
-    }
-
-    .section-title {
-      font-size: 1.1rem;
-      font-weight: 700;
-      color: #132743;
-    }
-
-    .section-subtitle {
-      font-size: 0.8rem;
-      color: var(--muted);
-    }
-
+    .sec-head span { font-size: 0.85rem; color: var(--muted); }
     .card {
-      background: var(--bg-alt);
-      border-radius: var(--radius-lg);
-      padding: 1.2rem 1.3rem;
-      border: 1px solid var(--border);
-      box-shadow: var(--shadow-soft);
-      margin-bottom: 1rem;
+      background: var(--card); border: 1px solid var(--border); border-radius: var(--radius);
+      padding: 1.25rem 1.4rem; margin-bottom: 1rem;
+    }
+    .card h3 { font-size: 1rem; color: var(--graphite-deep); margin-bottom: 0.15rem; }
+    .card p, .card li { font-size: 0.93rem; color: var(--muted); }
+    .card p + p { margin-top: 0.6rem; }
+    ul { margin: 0.35rem 0 0 1.1rem; }
+    li + li { margin-top: 0.3rem; }
+    li::marker { color: var(--emerald); }
+    strong { color: var(--graphite); }
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .grid-2 .card { margin-bottom: 0; }
+    .label {
+      display: inline-block; font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;
+      font-weight: 600; color: var(--emerald); background: var(--emerald-soft);
+      padding: 0.15rem 0.55rem; border-radius: 999px; margin-bottom: 0.6rem;
     }
 
-    .card h3 {
-      font-size: 0.98rem;
-      margin-bottom: 0.3rem;
-      color: #15233a;
+    /* TIMELINE */
+    .timeline { position: relative; padding-left: 1.4rem; }
+    .timeline::before {
+      content: ""; position: absolute; left: 5px; top: 0.4rem; bottom: 0.4rem; width: 2px; background: var(--border);
     }
-
-    .pill {
-      display: inline-block;
-      font-size: 0.72rem;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-      padding: 0.12rem 0.5rem;
-      border-radius: var(--radius-pill);
-      background: #f0f4ff;
-      color: var(--primary);
-      margin-bottom: 0.5rem;
+    .role { position: relative; margin-bottom: 1rem; }
+    .role::before {
+      content: ""; position: absolute; left: -1.4rem; top: 1.45rem; width: 12px; height: 12px;
+      border-radius: 50%; background: var(--emerald); box-shadow: 0 0 0 4px var(--emerald-soft);
     }
+    .role-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 0.3rem 1rem; }
+    .role-org { font-size: 0.88rem; color: var(--emerald); font-weight: 600; }
+    .role-date { font-size: 0.82rem; color: var(--muted); white-space: nowrap; }
 
-    ul {
-      margin-left: 1.1rem;
-      margin-top: 0.3rem;
-      margin-bottom: 0.2rem;
-      font-size: 0.9rem;
-    }
-
-    li + li {
-      margin-top: 0.15rem;
-    }
-
-    .two-column {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-      gap: 1rem;
-    }
-
-    .muted {
-      color: var(--muted);
-      font-size: 0.86rem;
+    .chips { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+    .chip {
+      font-size: 0.82rem; padding: 0.28rem 0.75rem; border-radius: 999px;
+      background: #f3f4f6; color: var(--graphite); border: 1px solid var(--border);
     }
 
     footer {
-      padding-top: 1.5rem;
-      border-top: 1px solid #e0e5f2;
-      margin-top: 1.5rem;
-      font-size: 0.8rem;
-      color: var(--muted);
-      text-align: center;
+      text-align: center; font-size: 0.8rem; color: #9ca3af; padding: 1.6rem 1rem;
+      background: var(--graphite-deep);
     }
 
-    @media (max-width: 800px) {
-      .hero {
-        grid-template-columns: 1fr;
-      }
-      .nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 0.3rem;
-      }
-      .nav-links {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 0.4rem 1rem;
-      }
-      .two-column {
-        grid-template-columns: 1fr;
-      }
+    @media (max-width: 820px) {
+      .hero { grid-template-columns: 1fr; padding-top: 2.2rem; }
+      .hero-photo-wrap { order: -1; }
+      .hero-photo { max-width: 170px; }
+      .hero h1 { font-size: 2rem; }
+      .proof-grid { grid-template-columns: 1fr 1fr; }
+      .grid-2 { grid-template-columns: 1fr; }
+      .nav { flex-direction: column; align-items: flex-start; }
     }
-  
-    .hero-photo {
-  width: 100%;
-  max-width: 260px;
-  border-radius: 18px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
-  border: 3px solid #ffffff;
-  margin-bottom: 1rem;
-}
-    
   </style>
 </head>
 <body>
 <header>
   <div class="nav">
-    <div class="nav-title">RAHUL AUTADE</div>
+    <div class="nav-title">RAHUL <span>AUTADE</span></div>
     <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
       <a href="#highlights">Highlights</a>
-      <a href="#timeline">Timeline</a>
       <a href="talks.html">Talks</a>
       <a href="projects.html">Projects</a>
       <a href="#publications">Publications</a>
-      <a href="#service">Service</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
 
-<main>
-  <!-- HERO -->
-  <section class="hero">
+<div class="hero-band">
+  <div class="hero">
     <div>
-      <div class="hero-kicker">Payments Architecture · Real-Time Systems · AI-Driven FinTech</div>
-      <h1 class="hero-title">Rahul Autade</h1>
-      <div class="hero-subtitle">Senior Technology Manager – Payment Architecture &amp; FinTech Engineering</div>
-      <p class="hero-tagline">
-        Architect of large-scale payment hubs, real-time payment systems, and ISO 20022–native platforms for Tier-1 U.S. banks and global financial institutions.
-        Combining enterprise product R&amp;D with applied AI and FinTech research.
+      <div class="kicker">Payments Modernization · Bank Integrations · ISO 20022</div>
+      <h1>Rahul Autade</h1>
+      <div class="hero-sub">Payments Modernization &amp; Implementation Leader</div>
+      <p class="hero-text">
+        I've spent 20+ years taking payment platforms live inside tier-1 banks, including PNC, Bank of America,
+        Citibank and Shinsei Bank. Today I lead Nuvono implementations at 3iTek, moving U.S. banks off legacy
+        payment systems onto a cloud-native, ISO 20022 platform.
       </p>
-
-      <div class="hero-tags">
-        <span class="tag">Payments Modernization</span>
-        <span class="tag">Real-Time Payments (RTP)</span>
-        <span class="tag">ISO 20022</span>
-        <span class="tag">FinTech Architecture</span>
-        <span class="tag">Cloud-Native Banking</span>
-        <span class="tag">AI &amp; Fraud Detection</span>
+      <div class="rails">
+        <span class="rail">Fedwire</span>
+        <span class="rail">CHIPS</span>
+        <span class="rail">SWIFT &amp; gpi</span>
+        <span class="rail">ISO 20022</span>
+        <span class="rail">RTP</span>
+        <span class="rail">Zelle</span>
+        <span class="rail">FedNow</span>
+        <span class="rail">ACH</span>
       </div>
-
-      <div class="hero-links">
-        <a class="btn" href="mailto:rahulautade2287@gmail.com?subject=CV%20request">Request CV</a>
-        <a class="btn btn-outline" href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar</a>
-        <a class="btn btn-outline" href="https://github.com/RahulAutade2288" target="_blank">GitHub Profile</a>
+      <div class="btns">
+        <a class="btn" href="https://www.linkedin.com/in/rahul-autade/" target="_blank">Connect on LinkedIn</a>
+        <a class="btn btn-ghost" href="mailto:rahulautade2287@gmail.com?subject=CV%20request">Request CV</a>
+        <a class="btn btn-ghost" href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar</a>
       </div>
     </div>
-
-   <div style="text-align:center;">
-  <img src="assets/images/Rahul_Autade_Profile_Pic-2.png.png" alt="Rahul Autade" class="hero-photo" />
-
-  <div class="hero-metrics">
-    <div class="metric-row">
-      <span class="metric-label">Industry Experience</span>
-      <span class="metric-value">22+ years</span>
-    </div>
-    <div class="metric-row">
-      <span class="metric-label">Global Banks Impacted</span>
-      <span class="metric-value">200+ institutions</span>
-    </div>
-    <div class="metric-row">
-      <span class="metric-label">Countries Reached</span>
-      <span class="metric-value">160+ countries</span>
-    </div>
-    <div class="metric-row">
-      <span class="metric-label">Scholarly Citations</span>
-      <span class="metric-value">135+ citations</span>
-    </div>
-    <div class="metric-row">
-      <span class="metric-label">Key Organizations</span>
-      <span class="metric-value">Finastra, PNC, BofA, Citi, Shinsei Bank</span>
+    <div class="hero-photo-wrap">
+      <img src="assets/images/Rahul_Autade_Profile_Pic-2.png.png" alt="Rahul Autade" class="hero-photo" />
     </div>
   </div>
 </div>
-  </section>
 
-  <!-- EXECUTIVE SUMMARY -->
-  <section id="summary">
-    <div class="section-header">
-      <h2 class="section-title">Executive Profile</h2>
-    </div>
+<div class="proof">
+  <div class="proof-grid">
+    <div class="proof-item"><div class="proof-num">20+ yrs</div><div class="proof-label">Delivering payment platforms into banks</div></div>
+    <div class="proof-item"><div class="proof-num">14M+</div><div class="proof-label">Payments a quarter on platforms I helped deliver at PNC</div></div>
+    <div class="proof-item"><div class="proof-num">49,632</div><div class="proof-label">Wires in one day: a record in the 2018 wire launch</div></div>
+    <div class="proof-item"><div class="proof-num">20+</div><div class="proof-label">Production go-lives across two GPP instances</div></div>
+  </div>
+</div>
+
+<main>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="sec-head"><h2>About</h2></div>
     <div class="card">
-      <p class="muted">
-        Recognized global authority in payments modernization, real-time payment architecture, FinTech innovation, ISO 20022 transformation, and cloud-native financial systems.
+      <p>
+        My work sits where payment platforms meet the bank: integrations, rails, cutovers and the people who make
+        them happen. I've worked on the vendor side for my whole career, first on Fundtech and Finastra's Global
+        PAYplus (GPP) and now on Nuvono, so I know both the product and what it takes to get it running safely in production.
       </p>
-      <ul>
-        <li class="muted">Architect of foundational components of Global PAYplus, a payment hub adopted by more than 200 banks across over 160 countries and processing billions of dollars in daily transactions.</li>
-        <li class="muted">Lead designer of the Nuvono next-generation payment engine and a principal contributor to real-time, multi-rail, and digital-settlement modernization programs at major U.S. financial institutions.</li>
-        <li class="muted">Widely published across IEEE, Springer, and international peer-reviewed journals, with more than 135 citations demonstrating external academic influence.</li>
-        <li class="muted">Senior Member of IEEE and Full Member of Sigma Xi (Carnegie Mellon University Chapter), frequently selected as reviewer, judge, keynote speaker, technical program committee member, and session chair for global AI, FinTech, and intelligent-systems conferences.</li>
-      </ul>
-       <p class="muted">
-        Continues to influence the global FinTech ecosystem through ongoing research in AI-driven fraud prevention, federated learning for financial risk, ISO 20022-based modernization, and cloud-native payment architectures. His work remains central to next-generation real-time banking platforms and continues to be referenced by practitioners, researchers, and educators internationally.
+      <p>
+        I lead implementations from kickoff to go-live: scope, plans, risk and governance, plus the hands-on detail
+        of Fedwire, CHIPS, SWIFT, RTP, Zelle, FedNow and ACH integrations and ISO 20022 migrations. Alongside delivery,
+        I write and speak about real-time payments, fraud prevention and AI in finance.
       </p>
     </div>
   </section>
 
-  <!-- CAREER TIMELINE -->
-  <section id="timeline">
-    <div class="section-header">
-      <h2 class="section-title">Career Snapshot</h2>
-      <span class="section-subtitle">Key roles in payments and FinTech</span>
-    </div>
-    <div class="card">
-      <ul>
-        <li><strong>2022 – Present:</strong> Senior Technology Manager at 3iTek, core architecture and engineering team for Nuvono – next-generation universal transaction banking platform powering Zelle and upcoming RTP/FedNow programs at a major U.S. bank.</li>
-        <li><strong>2003 – 2021:</strong> R&amp;D and payments architecture roles at CashTech → Fundtech → Finastra, authoring FRSD specifications and shaping core capabilities of Global PAYplus.</li>
-        <li><strong>Global Implementations:</strong> Led or contributed to payment modernization initiatives for PNC, Bank of America, Citi, Shinsei Bank in Japan, and other Tier-1 institutions across high-value, real-time, and cross-border rails.</li>
-      </ul>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="sec-head"><h2>Experience</h2><span>20+ years in payments</span></div>
+    <div class="timeline">
+      <div class="card role">
+        <div class="role-meta"><h3>Payments Modernization Lead, ISO 20022 Platform Architecture</h3><span class="role-date">Sep 2025 - Present</span></div>
+        <div class="role-org">3iTek LLC · Nuvono payments platform</div>
+        <ul>
+          <li>Leading Nuvono implementations for U.S. banks, including moving Zelle off a legacy system onto Nuvono's cloud-native platform on AWS.</li>
+          <li>Own implementation plans and rail coverage across wires, real-time payments and ISO 20022 messaging.</li>
+        </ul>
+      </div>
+      <div class="card role">
+        <div class="role-meta"><h3>Payment Implementation Lead, PNC</h3><span class="role-date">Feb 2022 - Aug 2025</span></div>
+        <div class="role-org">3iTek LLC</div>
+        <ul>
+          <li>Continued my PNC delivery from 2015 through 2025: 20+ production go-lives across two GPP instances (wires; CHIPS, RTP, Zelle over RTP, FedNow) and upgrades from 4.6.7 through 4.6.24.</li>
+          <li>Delivered ISO 20022 changes for the Fedwire and SWIFT CBPR+ mandates.</li>
+          <li>Led GPP delivery for PNC's real-time engine as volume tripled, from about 4M to 12M+ payments a quarter.</li>
+        </ul>
+      </div>
+      <div class="card role">
+        <div class="role-meta"><h3>GPP Implementation Lead, PNC</h3><span class="role-date">Sep 2015 - Feb 2022</span></div>
+        <div class="role-org">Finastra</div>
+        <ul>
+          <li>Helped replace PNC's legacy wire system with GPP and co-led the June 2018 launch, including the 8-day war room.</li>
+          <li>Wrote the architecture for PNC's real-time payments platform on GPP, connected to The Clearing House for RTP and Zelle.</li>
+          <li>Coordinated a 40-50 person program spanning core banking, fraud/AML, sanctions, channels and back office.</li>
+        </ul>
+      </div>
+      <div class="card role">
+        <div class="role-meta"><h3>Onsite Lead, Bank of America</h3><span class="role-date">Apr 2009 - Aug 2015</span></div>
+        <div class="role-org">Finastra</div>
+        <ul>
+          <li>Built Bank of America's enterprise payments hub on GPP across multiple offices, covering Mass Pay, Fed, bulk FX and FX.</li>
+          <li>Delivered TARGET2, SEPA and CHAPS flows that met local clearing rules.</li>
+        </ul>
+      </div>
+      <div class="card role">
+        <div class="role-meta"><h3>Payments Product Delivery</h3><span class="role-date">Sep 2003 - Mar 2009</span></div>
+        <div class="role-org">Fundtech</div>
+        <ul>
+          <li>Delivered TCRemit for Shinsei Bank (Japan) and Citibank (New Jersey), and worked on Transact Cashin.</li>
+        </ul>
+      </div>
     </div>
   </section>
 
-  <!-- CAREER HIGHLIGHTS -->
+  <!-- HIGHLIGHTS -->
   <section id="highlights">
-    <div class="section-header">
-      <h2 class="section-title">Career Highlights</h2>
-      <span class="section-subtitle">Selected contributions and recognition</span>
-    </div>
-
-    <div class="two-column">
+    <div class="sec-head"><h2>Highlights</h2><span>Selected work and recognition</span></div>
+    <div class="grid-2">
       <div class="card">
-        <span class="pill">Industry Contributions &amp; Key Roles</span>
+        <span class="label">Delivery</span>
         <ul>
-          <li>Architected FRSD specifications for Global PAYplus, used by 200+ financial institutions across 160+ countries.</li>
-          <li>Led key ISO 20022 and real-time payment modernization initiatives for Tier-1 U.S. banks.</li>
-          <li>Critical role in PNC Bank’s early RTP certification and go-live on The Clearing House Real-Time Payments Network.</li>
-          <li>Core architect for Nuvono, a next-generation cloud-native payment platform deployed at a major U.S. bank.</li>
+          <li>Record 49,632 wires processed in one day after PNC's 2018 wire launch, against a prior peak of about 27,000.</li>
+          <li>Recognized by PNC's CIO and Finastra's CEO for that launch.</li>
+          <li>Real-time volume at PNC grew from about 4M to 12M+ payments a quarter on the real-time platform I architected.</li>
+          <li>Now bringing Zelle onto Nuvono's cloud-native platform for a U.S. bank.</li>
         </ul>
       </div>
-
       <div class="card">
-        <span class="pill">Published Scholarly Articles &amp; Judging</span>
+        <span class="label">Community</span>
         <ul>
-          <li>Author of fourteen scholarly publications spanning IEEE, Springer, and peer-reviewed journals.</li>
-          <li>More than 135 Google Scholar citations, reflecting independent international recognition.</li>
-          <li>Reviewer for 75+ IEEE conference papers, ACM events, and international journals.</li>
-          <li>Keynote speaker, panel moderator, and session chair at international AI, FinTech, and intelligent-systems conferences.</li>
-          <li>Full Member of Sigma Xi (Carnegie Mellon University Chapter) and IEEE Senior Member.</li>
+          <li>IEEE Senior Member (2022) and Sigma Xi Full Member (2023).</li>
+          <li>Reviewer for 75+ IEEE conference papers, plus ACM events and journals.</li>
+          <li>Keynote speaker, panelist and session chair at AI and FinTech conferences. <a href="talks.html">See talks</a>.</li>
+          <li>Judge and mentor for innovation challenges and early-career engineers.</li>
         </ul>
       </div>
     </div>
   </section>
 
-  <!-- PROJECTS
-  <section id="projects">
-    <div class="section-header">
-      <h2 class="section-title">Open-Source &amp; Technical Projects</h2>
-      <span class="section-subtitle">Selected public work in FinTech and AI</span>
-    </div>
-
-    <div class="card">
-      <h3>Digital Payments System Blueprint</h3>
-      <p class="muted">
-        An end-to-end architectural blueprint for modern digital payment systems, including multi-rail routing, ISO 20022 message flows,
-        RTP lifecycles, cross-border FX processing, and compliance integration.
-      </p>
-      <ul>
-        <li>Models Wire, ACH, RTP, FedNow, and cross-border flows.</li>
-        <li>Includes conceptual FRSD-style specifications and workflow diagrams.</li>
-        <li>Designed as a learning and reference resource for engineers, architects, and students.</li>
-      </ul>
-      <p class="muted">
-        GitHub: <a href="https://github.com/RahulAutade2288/digital-payments-system-blueprint" target="_blank">digital-payments-system-blueprint</a>
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Federated Fraud Detection Framework</h3>
-      <p class="muted">
-        Prototype implementation of federated learning–based fraud detection for financial transactions, enabling multiple institutions to
-        collaboratively train models without sharing raw data.
-      </p>
-      <ul>
-        <li>Supports experimental real-time and batch anomaly detection.</li>
-        <li>Explores privacy-preserving collaboration in FinTech.</li>
-        <li>Aligned with research on federated learning and secure AI in finance.</li>
-      </ul>
-      <p class="muted">
-        GitHub: <a href="https://github.com/RahulAutade2288/fraud-detection-federated" target="_blank">fraud-detection-federated</a>
-      </p>
-    </div>
-
-    <div class="card">
-      <h3>Additional Repositories</h3>
-      <p class="muted">
-        More repositories, sample code, and research prototypes are available on my GitHub profile.
-      </p>
-      <p class="muted">
-        Profile: <a href="https://github.com/RahulAutade2288" target="_blank">github.com/RahulAutade2288</a>
-      </p>
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="sec-head"><h2>Certifications</h2></div>
+    <div class="chips">
+      <span class="chip">CFTE Payments Masterclass</span>
+      <span class="chip">Swift ISO 20022 Adoption Professional</span>
+      <span class="chip">Finastra Certified Associate, GPP</span>
+      <span class="chip">AI in Finance</span>
+      <span class="chip">IBM Blockchain</span>
+      <span class="chip">Google AI</span>
     </div>
   </section>
- -->
+
   <!-- PUBLICATIONS -->
   <section id="publications">
-    <div class="section-header">
-      <h2 class="section-title">Selected Publications</h2>
-      <span class="section-subtitle">IEEE, Springer, and peer-reviewed journals</span>
-    </div>
-
-    <div class="card">
-      <span class="pill">IEEE &amp; Springer</span>
-      <ul>
-        <li>Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis.</li>
-        <li>Quantum Computing for Fraud Detection in Real-Time Payment Systems.</li>
-        <li>AI-Enabled Blockchain Framework for Detecting Threats in Payment Systems.</li>
-        <li>Edge AI for Real-Time Transaction Authentication in IoT-Based Banking.</li>
-      </ul>    
-    </div>
-
-    <div class="card">
-      <span class="pill">Peer-Reviewed Journals</span>
-      <ul>
-        <li>AI Models for Real-Time Risk Assessment in Decentralized Finance.</li>
-        <li>Financial Security and Transparency with Blockchain Solutions.</li>
-        <li>Multi-Modal GANs for Real-Time Anomaly Detection in Financial Activity Streams.</li>
-        <li>Enhancing Blockchain Payment Security with Federated Learning.</li>
-        <li>Navigating Challenges in Real-Time Payment Systems in FinTech.</li>
-        <li>AI-Powered Predictive Maintenance in Industrial IoT.</li>
-        <li>Green FinTech and Its Influence on Sustainable Financial Practices.</li>
-      </ul>
-      <p class="muted">
-        Complete list: <a href="https://scholar.google.com/citations?user=JuVBGZYAAAAJ" target="_blank">Google Scholar Profile</a>
-      </p>
-    </div>
-  </section>
-
-  <!-- SERVICE & COMMUNITY -->
-  <section id="service">
-    <div class="section-header">
-      <h2 class="section-title">Judging, Advisory &amp; Community Service</h2>
-      <span class="section-subtitle">Professional &amp; academic contributions</span>
-    </div>
-
-    <div class="card">
-      <span class="pill">Peer Review &amp; Committees</span>
-      <ul>
-        <li>Reviewer for more than 75 IEEE conference papers and several ACM and journal submissions.</li>
-        <li>Technical program committee member for international conferences in AI, cybersecurity, and FinTech.</li>
-        <li>Session Chair for IIPEM 2025 (Amity University &amp; IEEE Singapore Chapter).</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <span class="pill">Judging &amp; Mentorship</span>
-      <ul>
-        <li>Judge for international innovation challenges, hackathons, and student research presentations.</li>
-        <li>Mentor for students and early-career professionals in AI, cybersecurity, and financial technology.</li>
-      </ul>
-    </div>
-
-    <div class="card">
-      <span class="pill">Professional Memberships</span>
-      <ul>
-        <li>Full Member, Sigma Xi – Carnegie Mellon University Chapter.</li>
-        <li>Senior Member, IEEE.</li>
-        <li>Member, ACM, IAENG, ABA, IOASD (Royal Fellow).</li>
-      </ul>
+    <div class="sec-head"><h2>Publications</h2><span>IEEE, Springer and peer-reviewed journals</span></div>
+    <div class="grid-2">
+      <div class="card">
+        <span class="label">IEEE &amp; Springer</span>
+        <ul>
+          <li>Computer Vision for Financial Fraud Prevention using Visual Pattern Analysis</li>
+          <li>Quantum Computing for Fraud Detection in Real-Time Payment Systems</li>
+          <li>AI-Enabled Blockchain Framework for Detecting Threats in Payment Systems</li>
+          <li>Edge AI for Real-Time Transaction Authentication in IoT-Based Banking</li>
+        </ul>
+      </div>
+      <div class="card">
+        <span class="label">Journals</span>
+        <ul>
+          <li>AI Models for Real-Time Risk Assessment in Decentralized Finance</li>
+          <li>Financial Security and Transparency with Blockchain Solutions</li>
+          <li>Multi-Modal GANs for Real-Time Anomaly Detection in Financial Activity Streams</li>
+          <li>Enhancing Blockchain Payment Security with Federated Learning</li>
+          <li>Navigating Challenges in Real-Time Payment Systems in FinTech</li>
+          <li>AI-Powered Predictive Maintenance in Industrial IoT</li>
+          <li>Green FinTech and Its Influence on Sustainable Financial Practices</li>
+        </ul>
+      </div>
     </div>
   </section>
 
   <!-- CONTACT -->
   <section id="contact">
-    <div class="section-header">
-      <h2 class="section-title">Contact</h2>
-    </div>
+    <div class="sec-head"><h2>Contact</h2></div>
     <div class="card">
-      <p class="muted">
-        I am open to invited talks, expert panels, and collaboration on research in payments modernization, AI-driven fraud detection, FinTech architecture,
-        and digital banking transformation..
+      <p>
+        Happy to talk about payments modernization programs, speaking invitations, or research collaboration.
+        The quickest way to reach me is email or LinkedIn.
       </p>
       <ul>
         <li>Email: <a href="mailto:rahulautade2287@gmail.com">rahulautade2287@gmail.com</a></li>
@@ -601,11 +372,11 @@
       </ul>
     </div>
   </section>
-
-  <footer>
-    © <span id="year"></span> Rahul Autade · Payments Modernization &amp; FinTech Engineering
-  </footer>
 </main>
+
+<footer>
+  © <span id="year"></span> Rahul Autade · Payments Modernization &amp; Implementation
+</footer>
 
 <script>
   document.getElementById("year").textContent = new Date().getFullYear();
